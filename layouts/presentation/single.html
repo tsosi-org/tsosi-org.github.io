@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <iframe class="presentation-frame" src="{{ printf "/presentation-standalone/%s" .Params.presentationSource }}" width="100%" frameborder="0" allow="fullscreen"></iframe>
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

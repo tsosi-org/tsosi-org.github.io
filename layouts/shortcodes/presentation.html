@@ -1,0 +1,13 @@
+<!--
+  Shortcode used to display a presentation in /presentation-standalone.
+  Arguments:
+    - name    The presentation name in the /presentation-standalone folder
+    - class   Additional CSS classes to give to the iframe
+-->
+<iframe
+  class="presentation-frame{{ with .Get "class" }} {{ .}}{{ end }}"
+  src="{{ printf "/presentation-standalone/%s" (.Get "name") }}"
+  width="100%"
+  frameborder="0"
+  allow="fullscreen">
+</iframe>

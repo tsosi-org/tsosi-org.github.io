@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <base target="_blank">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ "reveal/dist/reveal.css" | absURL }}">
+  </head>
+  <body>
+    <div
+      id="reveal-themes"
+      data-light-href="{{ "reveal/dist/theme/simple.css" | absURL }}"
+      data-dark-href="{{ "reveal/dist/theme/night.css" | absURL }}"
+    >
+    </div>
+    <div class="reveal">
+      <div class="slides">
+        <section  data-markdown
+                  data-separator="^---"
+                  data-separator-vertical="\r?\n----\r?\n"
+                  data-separator-notes="^Note:"
+                  data-charset="iso-8859-15">
+          {{ .RawContent }}
+        </section>
+      </div>
+    </div>
+
+    <script>
+      /*
+        Presentation theme setup.
+        When used as an iframe, the theme can be updated using
+        the postMessage API. 
+      */
+      const setTheme = (theme) => {
+        let dataDiv = document.getElementById("reveal-themes")
+        if (!dataDiv) {
+          return
+        }
+        let themeUrl = dataDiv.dataset.lightHref
+        if (theme == "dark") {
+          themeUrl = dataDiv.dataset.darkHref
+        }
+        let revealLink = document.getElementById("reveal-theme")
+        if (revealLink) {
+          revealLink.remove()
+        }
+        let link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.type = 'text/css'
+        link.href = themeUrl
+        link.media = 'all'
+        var head = document.getElementsByTagName('head')[0]
+        head.appendChild(link)
+      }
+
+      /* If the document is in standalone mode, we need to manually set the theme. */
+      let selectedTheme = 'light'
+      if (window.self == window.top) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          selectedTheme = 'dark'
+        }
+      }
+      else {
+        selectedTheme = localStorage.getItem("theme") ?? selectedTheme
+      }
+
+      setTheme(selectedTheme)
+
+      window.addEventListener('message', (event) => {
+        if (event.data && event.data.theme) {
+          setTheme(event.data.theme)
+        }
+      })
+    </script>
+    <script src="{{ "reveal/dist/reveal.js" | relURL }}"></script>
+    <script src="{{ "reveal/plugin/markdown/markdown.js" | relURL }}"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        slideNumber: true,
+        history: false,
+        center: true,
+        hash: true,
+        plugins: [RevealMarkdown],
+        transition: 'slide' // You can set transitions: 'none', 'fade', 'slide', 'convex', 'concave', 'zoom'
+      });
+    </script>
+
+  </body>
+</html>

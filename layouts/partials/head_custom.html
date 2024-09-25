@@ -1,0 +1,32 @@
+<!--
+If you want to include any custom html just before </head>, put it in this file.
+Or you can delete these file if you don't need it.
+-->
+{{ $opts := dict "transpiler" "libsass" "targetPath" "css/tsosi_custom.css" }}
+{{ with resources.Get "sass/tsosi_custom.scss" | toCSS $opts | minify }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" crossorigin="anonymous">
+{{ end }}
+<style>
+  html {
+    visibility: hidden;
+  }
+</style>
+<script>
+  (function setTheme() {
+    let themeSelected = localStorage.getItem('theme')
+    if (!themeSelected) {
+        themeSelected = 'light'
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            themeSelected = 'dark'
+        }
+    }
+    if (themeSelected == 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+
+    localStorage.setItem('theme', themeSelected)
+    document.documentElement.style.visibility = 'visible';
+  })()
+</script>

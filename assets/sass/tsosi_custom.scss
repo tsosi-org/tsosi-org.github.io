@@ -1,0 +1,249 @@
+/**
+* Define variables for the color used throughout the site.
+* This also overrides the original CSS to use these custom variables correctly.
+* TODO: clean it to use less variables and only stuff like
+* color-primary, color-with-bg, ....
+*/ 
+:root {
+	--bg-main: #f1f1f1;
+	--text: #121212;
+
+	--bg-nav: #ddd;
+	--text-nav: #121212;
+	
+	--primary: #00303f;
+	--secondary: #001F3F;
+	--accent: #077b92;
+	--accent-action: #016a80;
+
+	--text-gray: #777;
+	--bg-gray: #ddd;
+
+	--headings: #00303f;
+
+	--border-component: #dadada;
+
+}
+
+[data-theme="dark"] {
+	--bg-main: #121212;
+	--text: #e0e0e0;
+
+	--bg-nav: #282d2d;
+	--text-nav: #f1f1f1;
+	
+	--primary: #00455a;
+	--secondary: #FFF;
+	--accent: rgb(134, 172, 172);
+	--accent-action: #01697e;
+
+	--text-gray: #777;
+	--bg-gray: #1c2222;
+	
+	--border-component: #282828;
+	--headings: #94adad;
+
+	#theme-switch {
+		.fa-sun {
+			display: unset;
+		}
+		.fa-moon {
+			display: none;
+		}
+	}
+}
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: var(--bg-main);
+	color: var(--text);
+}
+
+.navbar-custom {
+	background-color: var(--bg-nav);
+	border-color: var(--bg-nav);
+	color: var(--text-nav);
+
+	.navbar-brand,
+	.nav li a {
+		font-weight: 800;
+		color: var(--text-nav);
+		
+		&:hover,
+		&:focus {
+			color: var(--accent-action);
+		}
+	}
+	.nav {
+		.navlinks-container,
+		.navlinks-container:hover,
+		.navlinks-container:focus {
+			background-color: var(--bg-nav);
+
+			.navlinks-children,
+			.navlinks-children a {
+				background-color: var(--bg-nav);
+				border-top: 1px solid;
+			}
+		}
+	}
+}
+
+footer {
+	background: var(--bg-gray);
+	border-color: var(--bg-gray);
+	color: var(--text);
+	
+	p a,
+	a {
+		color: var(--headings);
+		&:hover,
+		&:focus {
+			filter: brightness(80%);
+		}
+	}
+}
+
+p a,
+a {
+	color: var(--accent);
+	
+	&:hover,
+	&:focus {
+		color: var(--accent-action);
+	}
+}
+
+h1, h2 {
+	color: var(--headings);
+}
+
+hr {
+	border-color: var(--text-gray);
+}
+
+.post-preview{
+	border-color: var(--text-gray);
+	
+	h3 {
+		color: var(--headings);
+	}
+
+	a {
+		color: var(--accent);
+
+		&:hover,
+		&:focus,
+		h2:hover,
+		h3:hover {
+			color: var(--accent-action);
+		}
+	}
+}
+
+.pager li a {
+	color: var(--accent);
+	background-color: var(--bg-main);
+	border-color: var(--accent);
+	border-radius: 5px;
+
+	&:hover,
+	&:focus {
+		color: var(--bg-main);
+		background-color: var(--accent);
+		border-color: var(--accent);
+		transition: .3s all ease-in-out;
+	}
+}
+
+.post-preview .post-meta,
+.post-heading .post-meta,
+.page-meta {
+	color: var(--text-gray);
+}
+
+.panel {
+	background-color: var(--panel-bg-color);
+	border-color: var(--panel-bg-color);
+}
+
+blockquote {
+	color: var(--text-gray);
+}
+
+table tr:nth-child(2n) {
+	background-color: var(--bg-gray); 
+}
+
+/** Additional custom styles */
+
+.gray-box {
+	padding: 20px;
+  background-color: var(--bg-gray);
+	color: var(--text);
+	border-radius: 8px;
+	// box-shadow: var(--box-shadow-color) var(--box-shadow);
+	border: 1px solid var(--border-component);
+}
+
+.blog-tags {
+	a {
+		padding: 2px 5px 3px;
+		border: 1px solid var(--bg-gray);
+		border-radius: 4px;
+		background-color: var(--bg-gray);
+		color: var(--text);
+
+		&:hover,
+		&:focus {
+			border-radius: 4px;
+			border-color: var(--accent);
+			background-color: var(--bg-gray);
+			color: var(--accent);
+		}
+	}
+}
+
+.presentation-frame {
+	height: calc(min(60vh, 600px));
+	// box-shadow: var(--box-shadow-color) var(--box-shadow);
+	border: 2px solid var(--border-component);
+  border-radius: 20px;
+}
+
+.section-heading {
+	text-align: center;
+	
+	h1 {
+		text-transform: uppercase;
+	}
+}
+
+.presentation-heading.page-heading h1 {
+	font-size: 40px;
+}
+
+#theme-switch {
+	position: relative;
+	display: block;
+	height: 100%;
+	padding: 15px 15px;
+	font-size: 12px;
+	cursor: pointer;
+	color: var(--text);
+	border-radius: 5px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	margin-right: 10px;
+	
+	i.fas {
+		font-size: 20px;
+	}
+	&:hover {
+		background-color: var(--text);
+		color: var(--bg-nav);
+	}
+
+	.fa-sun {
+		display: none;
+	}
+}
