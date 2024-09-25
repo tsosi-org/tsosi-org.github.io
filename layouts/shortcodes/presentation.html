@@ -6,7 +6,7 @@
 -->
 <iframe
   class="presentation-frame{{ with .Get "class" }} {{ .}}{{ end }}"
-  src="{{ printf "/presentation-standalone/%s" (.Get "name") }}"
+  src="{{ (printf "presentation-standalone/%s" (.Get "name")) | relURL }}"
   width="100%"
   frameborder="0"
   allow="fullscreen">

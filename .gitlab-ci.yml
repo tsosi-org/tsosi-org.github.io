@@ -1,0 +1,20 @@
+default:
+    image: "${CI_TEMPLATE_REGISTRY_HOST}/pages/hugo/hugo_extended:0.132.2"
+
+variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+
+test:
+    script:
+        - hugo --minify
+    rules:
+        - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+
+pages:
+    script:
+        - hugo --minify
+    artifacts:
+        paths:
+            - public
+    rules:
+        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

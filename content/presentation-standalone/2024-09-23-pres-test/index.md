@@ -9,7 +9,7 @@ date: 2024-09-23
 <span style="font-size:70%">
 
 
-Maxence Larrieu, PhD [![](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0002-1834-3007)<br />
+Maxence Larrieu, PhD [![](orcid_16x16.png)](https://orcid.org/0000-0002-1834-3007)<br />
 
 `2023-09-01`
 
