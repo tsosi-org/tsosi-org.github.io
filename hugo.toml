@@ -1,4 +1,4 @@
-baseURL = "https://tsosi.gitlab.io"
+baseURL = "https://tsosi.org"
 DefaultContentLanguage = "en"
 title = "TSOSI"
 # Using theme as git submodule 
