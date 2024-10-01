@@ -23,12 +23,12 @@ theme = "beautifulhugo"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
-  comments = true
+  comments = false
   readingTime = true
   wordCount = false
   useHLJS = false
   socialShare = false
-  delayDisqus = true
+  delayDisqus = false
   showRelatedPosts = false
   hideAuthor = false
 
