@@ -52,7 +52,7 @@ theme = "beautifulhugo"
 
 [[menu.main]]
   name = "Blog"
-  url = "/post/"
+  url = "/blog/"
   weight = 1
 
 [[menu.main]]
@@ -82,3 +82,9 @@ theme = "beautifulhugo"
 #   name = "Presentations"
 #   url= "presentation"
 #   weight = 2
+
+[permalinks]
+  [permalinks.page]
+    post = "/blog/:filename"
+  [permalinks.section]
+    post = "/blog/"
