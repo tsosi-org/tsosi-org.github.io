@@ -1,0 +1,520 @@
+[
+  {
+    "region": "EU",
+    "iso_code_3": "ALB",
+    "iso_code_2": "AL",
+    "participating": true,
+    "name_en": "Albania"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "ARG",
+    "iso_code_2": "AR",
+    "participating": true,
+    "name_en": "Argentina"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "ARM",
+    "iso_code_2": "AM",
+    "participating": true,
+    "name_en": "Armenia"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "AUS",
+    "iso_code_2": "AU",
+    "participating": true,
+    "name_en": "Australia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "BIH",
+    "iso_code_2": "BA",
+    "participating": true,
+    "name_en": "Bosnia and Herzegovina"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "BRA",
+    "iso_code_2": "BR",
+    "participating": true,
+    "name_en": "Brazil"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "BGR",
+    "iso_code_2": "BG",
+    "participating": true,
+    "name_en": "Bulgaria"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "BFA",
+    "iso_code_2": "BF",
+    "participating": true,
+    "name_en": "Burkina Faso"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "CPV",
+    "iso_code_2": "CV",
+    "participating": true,
+    "name_en": "Cabo Verde"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "CAN",
+    "iso_code_2": "CA",
+    "participating": true,
+    "name_en": "Canada"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "CHL",
+    "iso_code_2": "CL",
+    "participating": true,
+    "name_en": "Chile"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "COL",
+    "iso_code_2": "CO",
+    "participating": true,
+    "name_en": "Colombia"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "CRI",
+    "iso_code_2": "CR",
+    "participating": true,
+    "name_en": "Costa Rica"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "CIV",
+    "iso_code_2": "CI",
+    "participating": true,
+    "name_en": "C\u00f4te d\u2019Ivoire"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "HRV",
+    "iso_code_2": "HR",
+    "participating": true,
+    "name_en": "Croatia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "CZE",
+    "iso_code_2": "CZ",
+    "participating": true,
+    "name_en": "Czech Republic"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "DNK",
+    "iso_code_2": "DK",
+    "participating": true,
+    "name_en": "Denmark"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "DOM",
+    "iso_code_2": "DO",
+    "participating": true,
+    "name_en": "Dominican Republic"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "ECU",
+    "iso_code_2": "EC",
+    "participating": true,
+    "name_en": "Ecuador"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "EST",
+    "iso_code_2": "EE",
+    "participating": true,
+    "name_en": "Estonia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "FIN",
+    "iso_code_2": "FI",
+    "participating": true,
+    "name_en": "Finland"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "FRA",
+    "iso_code_2": "FR",
+    "participating": true,
+    "name_en": "France"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "GEO",
+    "iso_code_2": "GE",
+    "participating": true,
+    "name_en": "Georgia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "DEU",
+    "iso_code_2": "DE",
+    "participating": true,
+    "name_en": "Germany"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "GHA",
+    "iso_code_2": "GH",
+    "participating": true,
+    "name_en": "Ghana"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "GRC",
+    "iso_code_2": "GR",
+    "participating": true,
+    "name_en": "Greece"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "GTM",
+    "iso_code_2": "GT",
+    "participating": true,
+    "name_en": "Guatemala"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "HND",
+    "iso_code_2": "HN",
+    "participating": true,
+    "name_en": "Honduras"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "IDN",
+    "iso_code_2": "ID",
+    "participating": true,
+    "name_en": "Indonesia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "IRL",
+    "iso_code_2": "IE",
+    "participating": true,
+    "name_en": "Ireland"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "ISR",
+    "iso_code_2": "IL",
+    "participating": true,
+    "name_en": "Israel"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "ITA",
+    "iso_code_2": "IT",
+    "participating": true,
+    "name_en": "Italy"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "JAM",
+    "iso_code_2": "JM",
+    "participating": true,
+    "name_en": "Jamaica"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "JOR",
+    "iso_code_2": "JO",
+    "participating": true,
+    "name_en": "Jordan"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "KEN",
+    "iso_code_2": "KE",
+    "participating": true,
+    "name_en": "Kenya"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "KGZ",
+    "iso_code_2": "KG",
+    "participating": false,
+    "name_en": "Kyrgyz Republic"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "LVA",
+    "iso_code_2": "LV",
+    "participating": true,
+    "name_en": "Latvia"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "LBR",
+    "iso_code_2": "LR",
+    "participating": true,
+    "name_en": "Liberia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "LTU",
+    "iso_code_2": "LT",
+    "participating": true,
+    "name_en": "Lithuania"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "MWI",
+    "iso_code_2": "MW",
+    "participating": true,
+    "name_en": "Malawi"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "MLT",
+    "iso_code_2": "MT",
+    "participating": true,
+    "name_en": "Malta"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "MEX",
+    "iso_code_2": "MX",
+    "participating": true,
+    "name_en": "Mexico"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "MNG",
+    "iso_code_2": "MN",
+    "participating": true,
+    "name_en": "Mongolia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "MNE",
+    "iso_code_2": "ME",
+    "participating": true,
+    "name_en": "Montenegro"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "MAR",
+    "iso_code_2": "MA",
+    "participating": true,
+    "name_en": "Morocco"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "NLD",
+    "iso_code_2": "NL",
+    "participating": true,
+    "name_en": "Netherlands"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "NZL",
+    "iso_code_2": "NZ",
+    "participating": true,
+    "name_en": "New Zealand"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "NGA",
+    "iso_code_2": "NG",
+    "participating": true,
+    "name_en": "Nigeria"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "MKD",
+    "iso_code_2": "MK",
+    "participating": true,
+    "name_en": "North Macedonia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "NOR",
+    "iso_code_2": "NO",
+    "participating": true,
+    "name_en": "Norway"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "PAN",
+    "iso_code_2": "PA",
+    "participating": true,
+    "name_en": "Panama"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "PNG",
+    "iso_code_2": "PG",
+    "participating": true,
+    "name_en": "Papua New Guinea"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "PRY",
+    "iso_code_2": "PY",
+    "participating": true,
+    "name_en": "Paraguay"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "PER",
+    "iso_code_2": "PE",
+    "participating": true,
+    "name_en": "Peru"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "PHL",
+    "iso_code_2": "PH",
+    "participating": true,
+    "name_en": "Philippines"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "PRT",
+    "iso_code_2": "PT",
+    "participating": true,
+    "name_en": "Portugal"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "KOR",
+    "iso_code_2": "KR",
+    "participating": true,
+    "name_en": "Republic of Korea"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "MDA",
+    "iso_code_2": "MD",
+    "participating": true,
+    "name_en": "Republic of Moldova"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "ROU",
+    "iso_code_2": "RO",
+    "participating": true,
+    "name_en": "Romania"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "SEN",
+    "iso_code_2": "SN",
+    "participating": true,
+    "name_en": "Senegal"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "SRB",
+    "iso_code_2": "RS",
+    "participating": true,
+    "name_en": "Serbia"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "SYC",
+    "iso_code_2": "SC",
+    "participating": true,
+    "name_en": "Seychelles"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "SLE",
+    "iso_code_2": "SL",
+    "participating": true,
+    "name_en": "Sierra Leone"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "SVK",
+    "iso_code_2": "SK",
+    "participating": true,
+    "name_en": "Slovak Republic"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "ZAF",
+    "iso_code_2": "ZA",
+    "participating": true,
+    "name_en": "South Africa"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "ESP",
+    "iso_code_2": "ES",
+    "participating": true,
+    "name_en": "Spain"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "LKA",
+    "iso_code_2": "LK",
+    "participating": false,
+    "name_en": "Sri Lanka"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "SWE",
+    "iso_code_2": "SE",
+    "participating": true,
+    "name_en": "Sweden"
+  },
+  {
+    "region": "AP",
+    "iso_code_3": "TLS",
+    "iso_code_2": "TL",
+    "participating": true,
+    "name_en": "Timor-Leste"
+  },
+  {
+    "region": "AF",
+    "iso_code_3": "TUN",
+    "iso_code_2": "TN",
+    "participating": true,
+    "name_en": "Tunisia"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "UKR",
+    "iso_code_2": "UA",
+    "participating": true,
+    "name_en": "Ukraine"
+  },
+  {
+    "region": "EU",
+    "iso_code_3": "GBR",
+    "iso_code_2": "GB",
+    "participating": true,
+    "name_en": "United Kingdom"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "USA",
+    "iso_code_2": "US",
+    "participating": true,
+    "name_en": "United States"
+  },
+  {
+    "region": "AM",
+    "iso_code_3": "URY",
+    "iso_code_2": "UY",
+    "participating": true,
+    "name_en": "Uruguay"
+  }
+]

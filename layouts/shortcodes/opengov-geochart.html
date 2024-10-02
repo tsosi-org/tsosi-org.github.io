@@ -1,0 +1,48 @@
+<!--
+  Shortcode to display a google GeoChart with
+  the member countries of the open government partnership
+-->
+<div class="geochart-container">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    let opengovCountries = {{ $.Site.Data.opengov_members }}
+  </script>
+  <script type="text/javascript">
+      google.charts.load('current', {'packages':['geochart']})
+      google.charts.setOnLoadCallback(drawRegionsMap)
+
+      function drawRegionsMap() {
+          var dataTable = new google.visualization.DataTable()
+          dataTable.addColumn('string', 'Country Code')
+          dataTable.addColumn('number', 'Active')
+          dataTable.addColumn({type: 'string', role: 'tooltip', p: {html: true}})
+          let data = []
+          for (country of opengovCountries) {
+            data.push([
+              country.iso_code_2,
+              country.participating ? 1 : 0,
+              `<div style="font-size: 25px"><b>${country.name_en}</b><br>${country.participating ? 'Active' : 'Inactive'}</div>`
+            ])
+          }
+          dataTable.addRows(data)
+
+          var options = {
+              tooltip: {
+                isHtml: true,
+                showTitle: false,
+                textStyle: {
+                  color: 'black',
+                  fontSize: "25px"
+                }
+              },
+              legend: 'none',
+              colorAxis: {colors: ['#6e7f9c', '#003b5c'], values: [0, 1]}
+          }
+
+          var chart = new google.visualization.GeoChart(document.getElementById('opengov-chart'))
+          chart.draw(dataTable, options)
+      }
+  </script>
+  <div id="opengov-chart">
+  </div>
+</div>

@@ -15,13 +15,22 @@
     </div>
     <div class="reveal">
       <div class="slides">
-        <section  data-markdown
-                  data-separator="^---"
-                  data-separator-vertical="\r?\n----\r?\n"
-                  data-separator-notes="^Note:"
-                  data-charset="iso-8859-15">
-          {{ .RawContent }}
-        </section>
+          {{ $content := .Content }}
+          {{ $slides_main := split $content "<!-- slide -->"}}
+          {{ range $slides_main }}
+            <section>
+              {{ $slides := split . "<!-- sub-slide -->"}}
+              {{ if gt (len $slides) 1 }}
+                {{ range $slides }}
+                  <section>
+                    {{ . | safeHTML}}
+                  </section>
+                {{ end }}
+              {{ else }}
+                {{ . | safeHTML }}
+              {{ end }}
+            </section>
+          {{ end }}
       </div>
     </div>
 
@@ -73,7 +82,6 @@
       })
     </script>
     <script src="{{ "reveal/dist/reveal.js" | relURL }}"></script>
-    <script src="{{ "reveal/plugin/markdown/markdown.js" | relURL }}"></script>
     <script>
       Reveal.initialize({
         controls: true,
@@ -82,7 +90,6 @@
         history: false,
         center: true,
         hash: true,
-        plugins: [RevealMarkdown],
         transition: 'slide' // You can set transitions: 'none', 'fade', 'slide', 'convex', 'concave', 'zoom'
       });
     </script>

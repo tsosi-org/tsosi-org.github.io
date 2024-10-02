@@ -40,7 +40,7 @@ _Introducing by example_
 
 </div>
 
----
+<!-- slide -->
 
 <div id="left" style="text-align: center;font-size:120%">
 
@@ -58,7 +58,7 @@ _Introducing by example_
 
 
 
-----
+<!-- sub-slide -->
 
 
 ## Open Source Pledge's goal 
@@ -68,7 +68,7 @@ _Introducing by example_
 to encourage companies to financially commit to Open Source. We all benefit from the vast Open Source ecosystem, and it's time we pay it forward.
 
 
-----
+<!-- sub-slide -->
 
 ## How it works?
 
@@ -86,7 +86,7 @@ to encourage companies to financially commit to Open Source. We all benefit from
 
 </span>
 
-----
+<!-- sub-slide -->
 
 
 <div id="left" style="text-align: center;">
@@ -106,7 +106,7 @@ Donation as data
 
 </div>
 
----
+<!-- slide -->
 
 ## Transparency to Sustain Open Science Infrastructure
 
@@ -115,7 +115,7 @@ Donation as data
 _in brief_
 
 
-----
+<!-- sub-slide -->
 
 ## Goal
 
@@ -129,7 +129,7 @@ Some essential open science infrastructure are: OpenCitation, SoftwareHeritage, 
 
 </span>
 
-----
+<!-- sub-slide -->
 
 ## How it works? 
 
@@ -149,7 +149,7 @@ Some essential open science infrastructure are: OpenCitation, SoftwareHeritage, 
 
 </span>
 
-----
+<!-- sub-slide -->
 
 ### How building a website with funding data will contribute to the sustainability?
 
@@ -164,7 +164,7 @@ The website will shine the spotlight on open science funders, so that other orga
 </div>
 
 
-----
+<!-- sub-slide -->
 
 ### Who are the funders of Open Science Infrastructure?
 
@@ -174,7 +174,7 @@ The project is worldwide, so funders are very diverse. It can be any stakeholder
 <div class="fragment">government, university, research funder, grant organisation, private companies, research library or laboratory...</div>
 
 
-----
+<!-- sub-slide -->
 
 ### Who are the Open Science Infrastructure for the project launch? 
 
@@ -187,7 +187,7 @@ The project is worldwide, so funders are very diverse. It can be any stakeholder
 
 <span class="fragment fade" style="font-size: 80%;"> and we'd love to include other</span>
 
-----
+<!-- sub-slide -->
 
 ### How to reach you? 
 

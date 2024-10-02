@@ -8,6 +8,8 @@ tags: ["example", "markdown"]
 You can write regular [markdown](https://markdowntutorial.com/) here and [Hugo](https://gohugo.io) will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 <!--more-->
 
+{{< opengov-geochart >}}
+
 **Here is some bold text**
 
 ## Here is a secondary heading

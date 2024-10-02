@@ -29,3 +29,13 @@ You can run the hugo development server by running
 ```bash
 hugo server
 ```
+
+## Slides
+
+We use reveal.js to display slides on the website.
+Presentation slides can be embedded as an iframe in any page using the following process:
+
+-   Create a folder with the name of your presentation in the folder `content/presentation-standalone/`
+-   In that folder, create a `index.md` file that will contains your presentation in markdown. Slides must be separated with `<!-- slide -->` and sub slides must be separated with `<!-- sub-slide -->`
+-   Any additional files such as images must be present in the created folder.
+-   The presentation can be embedded using the hugo shortcode `{{< presentation name="my_folder_name" >}}`.
