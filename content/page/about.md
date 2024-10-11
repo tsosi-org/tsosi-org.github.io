@@ -10,7 +10,8 @@ The very goal of the project is to contribute to the sustainability of the open 
 ### Governance
 
 * Supervision team : French Committee for open science, Université Grenoble Alpes
-* Operationnal team : Maxence Larrieu, Guillaume Alzieu, Joanna Janik, as members of the GRICAD unit Advisory board: SCOSS, OPERAS, DOAB, DOAJ  
+* Operationnal team : Maxence Larrieu, Guillaume Alzieu, Joanna Janik, as members of the GRICAD unit
+* Advisory board: SCOSS, OPERAS, DOAB, DOAJ  
 * User Group: Couperin, PeerCommunityIn, SciPost
 
 ### Contact
