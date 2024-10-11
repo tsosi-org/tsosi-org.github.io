@@ -6,11 +6,20 @@ subtitle: Home page
 
 > It should be has easy to pay for private content, as it is to fund Open Science infrastructure
 
+> Transparency to Sustain Open Science Infrastructure is new projet started in March 2024 and lead by Université Grenoble Alpes. It aims to support the sustainability of Open Science Infrastructure.
 
-## let's first introduce by example
+## Introducing by example
 
 {{< presentation name="01-by-example" >}}
 
-## another title
+## TSOSI in different aspects
 
 {{< presentation name="2024-09-23-pres-test" >}}
+
+## What's TSOSI originality ?
+
+We have a data-driven approach ; we gather data, enhance it, and provide access to it through a dedicated website. The website will enable users to explore the funds dedicated to open science infrastructure, encouraging everyone to contribute to its funding.
+
+## TSOSI partners
+
+{{< partner-section >}}

@@ -6,71 +6,33 @@
   {{- end -}}
 <footer>
   <div class="container">
-    {{ if .Site.Params.disclaimerText }}
     <div class="row">
-      <div class="disclaimer">
-        <b>Disclaimer:</b> {{ .Site.Params.disclaimerText }}
-      </div>
-    </div>
-    {{ end }}
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          <!-- DISABLE SOCIAL LINKS
-          {{ range .Site.Data.beautifulhugo.social.social_icons }}
-            {{- if isset $.Site.Params.author .id }}
-              <li>
-              {{ if or ( hasPrefix ( index $.Site.Params.author .id ) "http://" ) ( hasPrefix ( index $.Site.Params.author .id ) "https://" ) }}
-                <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf "%s" (index $.Site.Params.author .id) }}" title="{{ .title }}">
-              {{ else }}
-                <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf .url (index $.Site.Params.author .id) }}" title="{{ .title }}">
+      <div class="footer__content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="footer__logos">
+          {{ $logos := slice
+            (dict "path" "img/logo_MESR.svg" "url" "https://www.enseignementsup-recherche.gouv.fr/fr" "width" "10em")
+            (dict "path" "img/logo_ouvrir_la_science.svg" "url" "https://www.ouvrirlascience.fr" "width" "13em")
+            (dict "path" "img/logo_uga.svg" "url" "https://www.univ-grenoble-alpes.fr/" "width" "7em")
+          }}
+          {{ range $logos }}
+            <a href="{{ .url }}" rel="noopener noreferrer" target="_blank">
+              {{ $logo := . }}
+              {{ with resources.Get .path }}
+                <img class="logo" src="{{ .Permalink }}" style="--width: {{ $logo.width }}">
               {{ end }}
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            {{- end -}}
-          {{ end }}
-          -->
-          {{ if .Site.Params.rss }}
-          {{ with .OutputFormats.Get "RSS" }}
-          <li>
-            <a href="{{ .RelPermalink }}" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
             </a>
-          </li>
           {{ end }}
-          {{ end }}
-        </ul>
-        <p class="credits copyright text-muted">
-          <!-- REMOVE MAIL CONTACT
-          {{ with .Site.Params.author.email }}
-            <a href="mailto:{{ . }}">{{ . }}</a>
-            &nbsp;&bull;&nbsp;
-          {{ end }}
-          -->
+        </div>
 
-          &copy;
-          {{ if .Site.Params.since }}
-            {{ .Site.Params.since }} - {{ .Site.Lastmod.Format "2006" }}
-          {{ else }}
-            {{ .Site.Lastmod.Format "2006" }}
+        <div class="text-center footer__text">
+          © Transparency to Sustain Open Science Infrastructure 2024
+          {{ with resources.Get "img/logo_cc_heart.svg" }}
+          &nbsp;&bull;&nbsp;
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" rel="noopener noreferrer" target="_blank">
+            <img class="logo-inline" src="{{ .Permalink }}">
+          </a>
           {{ end }}
-
-          {{ if .Site.Title }}
-            &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
-          {{ end }}
-        </p>
-        <p class="credits text-muted">
-          This work is licensed under a
-          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 Internation License</a>.  
-        </p>
+        </div>
       </div>
     </div>
   </div>
@@ -96,12 +58,8 @@
 {{- if .Site.Params.staticman }}
 <script src="{{ "js/staticman.js" | absURL }}"></script>
 {{- end }}
-{{- if  .Site.Params.useHLJS }}
-<script src="{{ "js/highlight.min.js" | absURL }}"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script>
-{{- end -}}
 
+<!-- USELESS SCRIPTS
 {{- if .Site.Params.selfHosted -}}
 <script src="{{ "js/photoswipe.min.js" | absURL }}"></script>
 <script src="{{ "js/photoswipe-ui-default.min.js" | absURL }}"></script>
@@ -110,6 +68,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
 {{- end -}}
 <script src="{{ "js/load-photoswipe.js" | absURL }}"></script>
+-->
 
 <!-- Google Custom Search Engine -->
 {{ if .Site.Params.gcse }}

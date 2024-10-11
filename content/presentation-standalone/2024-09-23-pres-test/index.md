@@ -16,16 +16,16 @@ Maxence Larrieu, PhD [![](orcid_16x16.png)](https://orcid.org/0000-0002-1834-300
 
 </span>
 
----
+<!-- slide -->
 
 ## Background
 (i)
 
-----
+<!-- sub-slide -->
 
 The research relies on open infrastructures that are recent (< 30 years). The financing of these infrastructures is not stabilized and is a crucial issue. 
 
-----
+<!-- sub-slide -->
 
 The actors of the research ecosystem must invent ways to support it.
 
@@ -36,13 +36,13 @@ The actors of the research ecosystem must invent ways to support it.
 
 UNESCO, 2022, [Funding open science](https://unesdoc.unesco.org/notice?id=p%3A%3Ausmarcdef_0000383709&posInSet=6&queryId=N-EXPLORE-8e161eb1-7b01-4506-b255-ba7d6a7f5780)
 
-----
+<!-- sub-slide -->
 ### Specificity of the open infrastructures
 
 <br/>
 they are financed without getting anything personalized in return, we pay for the support of a common good
 
-----
+<!-- sub-slide -->
 
 ### Related events
 
@@ -56,7 +56,7 @@ they are financed without getting anything personalized in return, we pay for th
 
 
 
-----
+<!-- sub-slide -->
 
 ### Key stakeholder
 
@@ -64,7 +64,7 @@ they are financed without getting anything personalized in return, we pay for th
 
 * **Research Institutions** : institutions where the research takes place
 
-----
+<!-- sub-slide -->
 
 [1] A rational on the perimeter and the naming will be necessary : 
 
@@ -73,7 +73,7 @@ they are financed without getting anything personalized in return, we pay for th
 * "Open research infrastructures"
 * "Open science infrastructures" (SparcEurope, UNESCO)
 
----
+<!-- slide -->
 
 
 <!-- memo speaker
@@ -82,40 +82,40 @@ they are financed without getting anything personalized in return, we pay for th
 ## How funds are currently displayed ? 
 (ii)
 
-----
+<!-- sub-slide -->
 
 ### Focus on the level involved with institutions & Open infrastructures
 
-----
+<!-- sub-slide -->
 [![uvsq](uvsq-fundings.png)](https://www.bib.uvsq.fr/la-science-ouverte-a-la-bu)
 
 
-----
+<!-- sub-slide -->
 [![pkp](pkp-sustainers.png)](https://pkp.sfu.ca/sustainers/)
 
-----
+<!-- sub-slide -->
 
 [![pci](pci-supporters.png)](https://peercommunityin.org/pci-network/)
 
-----
+<!-- sub-slide -->
 ![](scipost-sponsors.png)
 
-----
+<!-- sub-slide -->
 ![](utrech-univ-supports.png)
 
-----
+<!-- sub-slide -->
 
 [![doaj](doaj-supporters.png)](https://doaj.org/support/supporters/)
 
-----
+<!-- sub-slide -->
 [![ror](ror-supporters.png)](https://ror.org/community/)
 
----
+<!-- slide -->
 
 ## Limits
 (iii)
 
-----
+<!-- sub-slide -->
 
 * Funds are poorly valued, sometimes actors simply forget
 
@@ -123,14 +123,14 @@ they are financed without getting anything personalized in return, we pay for th
 
 * Crucial data is missing : time, amount and PIDs (persistent identifiers)
 
-----
+<!-- sub-slide -->
 
 The funds are displayed by HTML and logos information.
 
 TSOI goal is to represent them with open and structured data (**ROR**, **wikidata**) in a dedicated and interoperable tool
 
 
-----
+<!-- sub-slide -->
 
 > "The way we fund and resource open projects we rely on is insufficient" 
 
@@ -139,7 +139,7 @@ TSOI goal is to represent them with open and structured data (**ROR**, **wikidat
 <br />
 <br />
 
-----
+<!-- sub-slide -->
 
 Funding for open infrastructures is not visible globally
 
@@ -148,25 +148,25 @@ Funding for open infrastructures is not visible globally
 * the big picture isn't possible
 
 
----
+<!-- slide -->
 
 ## Towards a solution
 (iv)
 
-----
+<!-- sub-slide -->
 
 We aim to **valorize** the funding.
 
 The more we value these funding the more common they will become. 
 
-----
+<!-- sub-slide -->
 ### How to valorize ? 
 
 <br /> <br />
 * In making **publicly available** the funding made from Research institution to open infrastructures 
 
 * We **mimic**: if they do it we should do it
-----
+<!-- sub-slide -->
 
 ### TSOI, an added value for funding
 
@@ -174,7 +174,7 @@ The more we value these funding the more common they will become.
 Add value on funding, so that others will want to fund
 
 
-----
+<!-- sub-slide -->
 ### draft : we are in a transition
 
 
@@ -183,12 +183,12 @@ Add value on funding, so that others will want to fund
 * we have been used to hiding the price of acquisitions (hiden subscription contrats )
 * TSOI will promote funding for the Open Infra.
 
----
+<!-- slide -->
 
 ## Comparison
 (v)
 
-----
+<!-- sub-slide -->
 
 OpenAPC : open the cost of APCs
 
@@ -201,20 +201,18 @@ TSOI : open the funding of the open infrastructures
 (`institutions ⟷ open infrastructures`)
 
 
-<!-- ----
+<!-- sub-slide -->
 
 [ESAC](https://esac-initiative.org/about/about-esac/), [Enquete Couperin 2020](https://www.ouvrirlascience.fr/publication-de-lenquete-sur-les-ressources-electroniques-de-lesri-ere/) ...
 
 A la lumière des efforts effectués pour ouvrir les coûts impliqués par le système éditorial traditionnel, on devine l'importance, les enjeux, liés à l'ouverture des financements effectués pour les infrastructures ouverte.
 
- -->
-
----
+<!-- slide -->
 
 ## TSOI as a service
 (vi)
 
-----
+<!-- sub-slide -->
 
 ### For research institutions
 
@@ -222,7 +220,7 @@ A la lumière des efforts effectués pour ouvrir les coûts impliqués par le sy
 
 * Compare, understand where your peers are investing
 
-----
+<!-- sub-slide -->
 
 ### For open infrastructures
 
@@ -231,7 +229,7 @@ A la lumière des efforts effectués pour ouvrir les coûts impliqués par le sy
 
 * Compare, understand other economic models
 
-----
+<!-- sub-slide -->
 
 ### For the community & society
 
@@ -239,11 +237,11 @@ A la lumière des efforts effectués pour ouvrir les coûts impliqués par le sy
 * Explore the diversity of economic models
 * Explore the tendancy of funding
 
----
+<!-- slide -->
 
 ## extra
 
-----
+<!-- sub-slide -->
 
 * [Open Governmentship](https://www.opengovpartnership.org/about/)
 * [The Principles of Open Scholarly Infrastructure](http://openscholarlyinfrastructure.org/)

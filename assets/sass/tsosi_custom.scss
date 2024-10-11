@@ -5,12 +5,12 @@
 * color-primary, color-with-bg, ....
 */ 
 :root {
-	--bg-main: #f1f1f1;
+	--bg-main: #FFFFFF;
 	--text: #121212;
 
-	--bg-nav: #ddd;
+	--bg-nav: lightgray;
 	--text-nav: #121212;
-	
+
 	--primary: #00303f;
 	--secondary: #001F3F;
 	--accent: #077b92;
@@ -19,9 +19,12 @@
 	--text-gray: #777;
 	--bg-gray: #ddd;
 
-	--headings: #00303f;
+	--headings: #3A6D8C;
+	--link: #6A9AB0;
+	--link-hover: #466675;
 
 	--border-component: #dadada;
+	--img-background-color: transparent;
 
 }
 
@@ -42,6 +45,8 @@
 	
 	--border-component: #282828;
 	--headings: #94adad;
+
+	--img-background-color: white;
 
 	#theme-switch {
 		.fa-sun {
@@ -71,7 +76,7 @@ body {
 		
 		&:hover,
 		&:focus {
-			color: var(--accent-action);
+			color: var(--link-hover);
 		}
 	}
 	.nav {
@@ -89,33 +94,25 @@ body {
 	}
 }
 
-footer {
-	background: var(--bg-gray);
-	border-color: var(--bg-gray);
-	color: var(--text);
-	
-	p a,
-	a {
-		color: var(--headings);
-		&:hover,
-		&:focus {
-			filter: brightness(80%);
-		}
-	}
-}
-
 p a,
 a {
-	color: var(--accent);
+	color: var(--link);
 	
 	&:hover,
 	&:focus {
-		color: var(--accent-action);
+		color: var(--link-hover);
 	}
 }
 
-h1, h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	color: var(--headings);
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 hr {
@@ -124,34 +121,31 @@ hr {
 
 .post-preview{
 	border-color: var(--text-gray);
-	
-	h3 {
-		color: var(--headings);
-	}
 
 	a {
-		color: var(--accent);
+		color: var(--link);
 
 		&:hover,
 		&:focus,
+		h1:hover,
 		h2:hover,
 		h3:hover {
-			color: var(--accent-action);
+			color: var(--link-hover);
 		}
 	}
 }
 
 .pager li a {
-	color: var(--accent);
+	color: var(--link);
 	background-color: var(--bg-main);
-	border-color: var(--accent);
+	border-color: var(--link);
 	border-radius: 5px;
 
 	&:hover,
 	&:focus {
 		color: var(--bg-main);
-		background-color: var(--accent);
-		border-color: var(--accent);
+		background-color: var(--link);
+		border-color: var(--link);
 		transition: .3s all ease-in-out;
 	}
 }
@@ -197,9 +191,9 @@ table tr:nth-child(2n) {
 		&:hover,
 		&:focus {
 			border-radius: 4px;
-			border-color: var(--accent);
+			border-color: var(--link);
 			background-color: var(--bg-gray);
-			color: var(--accent);
+			color: var(--link);
 		}
 	}
 }
@@ -221,6 +215,11 @@ table tr:nth-child(2n) {
 
 .presentation-heading.page-heading h1 {
 	font-size: 40px;
+}
+
+.page-heading h1,
+.section-heading h1 {
+	margin: unset;
 }
 
 #theme-switch {
@@ -246,4 +245,59 @@ table tr:nth-child(2n) {
 	.fa-sun {
 		display: none;
 	}
+}
+
+footer {
+	background: var(--bg-gray);
+	border-color: var(--bg-gray);
+	color: var(--text-gray);
+	
+	p a,
+	a {
+		color: var(--link);
+		&:hover,
+		&:focus {
+			color: var(--link-hover);
+		}
+	}
+}
+
+.footer__content > * {
+	margin-bottom: 1em;
+}
+
+.footer__logos {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1em;
+
+}
+
+img {
+	background-color: var(--img-background-color);
+}
+
+img.logo {
+	display: block;
+	margin: unset;
+	width: var(--width);
+	height: var(--height);
+	padding: 0.5em;
+}
+
+.logo-inline {
+	display: inline;
+	height: 2em;
+	padding: 0.1em;
+}
+
+#home-logo-partners {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: space-around;
+	flex-wrap: wrap;
+	column-gap: 5em;
 }

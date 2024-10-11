@@ -388,10 +388,12 @@ footer div.disclaimer {
   color: #0085a1;
 }
 
-.post-preview .post-title {
+.post-preview h2.post-title {
   font-size: 30px;
   margin-top: 0;
+  margin-bottom: 0.25em;
 }
+
 .post-preview .post-subtitle {
   margin: 0;
   font-weight: 300;

@@ -1,1 +1,6 @@
-<img src="{{ (printf "img/%s" (.Get "src") | relURL ) }}" alt="{{ .Get "alt" }}">
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $class := .Get "class" }}
+{{ with resources.Get $src }}
+  <img class="{{ $class }}" src="{{ .Permalink }}" alt="{{ $alt }}">
+{{ end }}
