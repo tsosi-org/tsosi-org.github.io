@@ -20,15 +20,18 @@
           {{ range $slides_main }}
             <section>
               {{ $slides := split . "<!-- sub-slide -->"}}
-              {{ if gt (len $slides) 1 }}
                 {{ range $slides }}
+                  {{/*  Extract attributes from the slide comment to add it to the generated section */}}
+                  {{ $slideAttributesComment := findRE `<!--\s+\.slide:\s+(.*)\s*-->` . }}
+                  {{ if $slideAttributesComment }}
+                  {{ $slideExtraAttributes := replaceRE `<!--\s+\.slide:\s+(.*)\s*-->` "$1" (index $slideAttributesComment 0)}}
+                  <section {{ $slideExtraAttributes | safeHTMLAttr }}>
+                  {{ else }}
                   <section>
+                  {{ end }}
                     {{ . | safeHTML}}
                   </section>
                 {{ end }}
-              {{ else }}
-                {{ . | safeHTML }}
-              {{ end }}
             </section>
           {{ end }}
       </div>
@@ -40,6 +43,7 @@
         When used as an iframe, the theme can be updated using
         the postMessage API. 
       */
+      const FORCE_LIGHT = true
       const setTheme = (theme) => {
         let dataDiv = document.getElementById("reveal-themes")
         if (!dataDiv) {
@@ -62,24 +66,29 @@
         head.appendChild(link)
       }
 
-      /* If the document is in standalone mode, we need to manually set the theme. */
-      let selectedTheme = 'light'
-      if (window.self == window.top) {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          selectedTheme = 'dark'
-        }
+      if (FORCE_LIGHT === true) {
+        setTheme('light')
       }
       else {
-        selectedTheme = localStorage.getItem("theme") ?? selectedTheme
-      }
-
-      setTheme(selectedTheme)
-
-      window.addEventListener('message', (event) => {
-        if (event.data && event.data.theme) {
-          setTheme(event.data.theme)
+        /* If the document is in standalone mode, we need to manually set the theme. */
+        let selectedTheme = 'light'
+        if (window.self == window.top) {
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            selectedTheme = 'dark'
+          }
         }
-      })
+        else {
+          selectedTheme = localStorage.getItem("theme") ?? selectedTheme
+        }
+
+        setTheme(selectedTheme)
+
+        window.addEventListener('message', (event) => {
+          if (event.data && event.data.theme) {
+            setTheme(event.data.theme)
+          }
+        })
+      }
     </script>
     <script src="{{ "reveal/dist/reveal.js" | relURL }}"></script>
     <script>
@@ -90,7 +99,7 @@
         history: false,
         center: true,
         hash: true,
-        transition: 'slide' // You can set transitions: 'none', 'fade', 'slide', 'convex', 'concave', 'zoom'
+        transition: 'none' // You can set transitions: 'none', 'fade', 'slide', 'convex', 'concave', 'zoom'
       });
     </script>
 

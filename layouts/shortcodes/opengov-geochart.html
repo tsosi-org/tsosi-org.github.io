@@ -1,47 +1,74 @@
 <!--
   Shortcode to display a google GeoChart with
   the member countries of the open government partnership
+  Params:
+    - class     Additional class to give the global div.
+    - slideId   The slide ID. This should be passed when the geochart
+                is embedded within a presentation.
 -->
-<div class="geochart-container">
+
+{{ $slideId := .Get "slideId" }}
+{{ $class := .Get "class"}}
+<div class="geochart-container {{ $class }}">
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
     let opengovCountries = {{ $.Site.Data.opengov_members }}
-  </script>
-  <script type="text/javascript">
-      google.charts.load('current', {'packages':['geochart']})
-      google.charts.setOnLoadCallback(drawRegionsMap)
-
-      function drawRegionsMap() {
-          var dataTable = new google.visualization.DataTable()
-          dataTable.addColumn('string', 'Country Code')
-          dataTable.addColumn('number', 'Active')
-          dataTable.addColumn({type: 'string', role: 'tooltip', p: {html: true}})
-          let data = []
-          for (country of opengovCountries) {
-            data.push([
-              country.iso_code_2,
-              country.participating ? 1 : 0,
-              `<div style="font-size: 25px"><b>${country.name_en}</b><br>${country.participating ? 'Active' : 'Inactive'}</div>`
+    google.charts.load('current', {'packages':['geochart']})
+    
+    
+    function drawChart() {
+        var dataTable = new google.visualization.DataTable()
+        dataTable.addColumn('string', 'Country Code')
+        dataTable.addColumn('number', 'Active')
+        dataTable.addColumn({type: 'string', role: 'tooltip', p: {html: true}})
+        let data = []
+        for (country of opengovCountries) {
+          data.push([
+            country.iso_code_2,
+            country.participating ? 1 : 0,
+            `<div style="font-size: 25px">
+              <b>${country.name_en}</b>:
+              ${country.participating ? 'Active' : 'Inactive'}
+            </div>`
             ])
           }
-          dataTable.addRows(data)
+        dataTable.addRows(data)
+        
+        var options = {
+          tooltip: {
+              isHtml: true,
+              showTitle: false,
+              textStyle: {
+                color: 'black',
+                fontSize: "25px"
+              }
+            },
+            legend: 'none',
+            colorAxis: {colors: ['#6e7f9c', '#003b5c'], values: [0, 1]}
+        }
 
-          var options = {
-              tooltip: {
-                isHtml: true,
-                showTitle: false,
-                textStyle: {
-                  color: 'black',
-                  fontSize: "25px"
-                }
-              },
-              legend: 'none',
-              colorAxis: {colors: ['#6e7f9c', '#003b5c'], values: [0, 1]}
-          }
-
-          var chart = new google.visualization.GeoChart(document.getElementById('opengov-chart'))
-          chart.draw(dataTable, options)
+        var chart = new google.visualization.GeoChart(document.getElementById('opengov-chart'))
+        chart.draw(dataTable, options)
+    }
+    let slideId = {{ .Get "slideId" | default "--no-slide--"}}
+    var updateChart = () => {
+      if (!window.Reveal) {
+        console.log("Reveal is not here ....")
+        setTimeout(updateChart, 500)
+        return
       }
+      Reveal.addEventListener("slidechanged", (e) => {
+        if (e.currentSlide.dataset.slideId === slideId) {
+          drawChart()
+          console.log("Chart redrawn")
+        }
+      })
+    }
+    if (slideId != "--no-slide--") {
+      updateChart()
+    } else {
+      google.charts.setOnLoadCallback(drawChart)
+    }
   </script>
   <div id="opengov-chart">
   </div>

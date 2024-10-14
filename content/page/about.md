@@ -18,7 +18,7 @@ The very goal of the project is to contribute to the sustainability of the open 
 
 For any question feel free to reach us at <kbd>contact[the famous symbol]tsosi.org</kbd>
 
-### Licence
+### License
 
 Unless otherwise noted, all content on this site is released under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). 
 

@@ -1,16 +1,56 @@
 <div id="home-logo-partners">
   {{ $logos := slice
-    (dict "path" "img/logo_DOAJ.svg" "alt" "DOAJ logo" "url" "https://doaj.org/" "width" "10em")
-    (dict "path" "img/logo_DOAB.png" "alt" "DOAB logo" "url" "https://www.doabooks.org/" "width" "10em")
-    (dict "path" "img/logo_PCI.jpeg" "alt" "PCI logo" "url" "https://peercommunityin.org/" "width" "10em")
-    (dict "path" "img/logo_SciPost.png" "alt" "SciPost logo" "url" "https://scipost.org/" "width" "10em")
-    (dict "path" "img/logo_OPERAS.png" "alt" "OPERAS logo" "url" "https://operas-eu.org/" "width" "10em")
+    (
+      dict  "path" "img/logo_DOAJ.svg"
+            "alt" "DOAJ logo"
+            "url" "https://doaj.org/"
+            "width" "10em"
+    )
+    (
+      dict  "path" "img/logo_DOAB.png"
+            "alt" "DOAB logo"
+            "url" "https://www.doabooks.org/"
+            "width" "10em"
+    )
+    (
+      dict  "path" "img/logo_PCI.jpeg"
+            "alt" "PCI logo"
+            "url" "https://peercommunityin.org/"
+            "width" "8em"
+    )
+    (
+      dict  "path" "img/logo_scipost.png"
+            "alt" "SciPost logo"
+            "url" "https://scipost.org/"
+            "width" "10em"
+            "class" "logo-scipost"
+    )
+    (
+      dict  "path" "img/logo_OPERAS.png"
+            "alt" "OPERAS logo"
+            "url" "https://operas-eu.org/"
+            "width" "10em"
+    )
+    (
+      dict  "path" "img/logo_scoss.png"
+            "alt" "SCOSS logo"
+            "url" "https://scoss.org/"
+            "width" "10em"
+    )
+    (
+      dict  "path" "img/logo_couperin_blanc.svg"
+            "alt" "Couperin logo"
+            "url" "https://couperin.org/"
+            "width" "12em"
+            "class" "logo-couperin"
+    )
   }}
   {{ range $logos }}
     <a href="{{ .url}}" rel="noopener noreferrer" target="_blank">
       {{ $logo := . }}
+      {{ $class := index . "class"}}
       {{ with resources.Get .path }}
-        <img class="logo" src="{{ .Permalink }}" alt="{{ $logo.alt }}" style="--width: {{ $logo.width }}">
+        <img class="logo {{ $class }}" src="{{ .Permalink }}" alt="{{ $logo.alt }}" style="--width: {{ $logo.width }}">
       {{ end }}
     </a>
   {{ end }}

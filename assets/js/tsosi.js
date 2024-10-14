@@ -36,9 +36,32 @@ function switchTheme(_) {
     updateFrameTheme(newTheme)    
 }
 
+/**
+ * Handle clicks on a full-screen button.
+ * Toggle full-screen according to the referenced ID.
+ * @param {Event} event
+ */
+function iframeFullScreenHandler(event) {
+    let buttonElement = event.currentTarget
+    let elementToToggle = document.getElementById(buttonElement.dataset.targetId)
+    if (!elementToToggle) {
+        console.log("No referenced element to toggle full-screen on.")
+        return
+    }
+    if (elementToToggle.dataset.fullScreen == "active") {
+        elementToToggle.dataset.fullScreen = null
+        return
+    }
+    elementToToggle.dataset.fullScreen = "active"
+}
+
 document.addEventListener("DOMContentLoaded", (_) => {
     addClickLikeEventListener(
         "#theme-switch",
         switchTheme
+    )
+    addClickLikeEventListener(
+        ".iframe-container .full-screen-switch",
+        iframeFullScreenHandler
     )
 })

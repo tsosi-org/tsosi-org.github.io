@@ -1,9 +1,7 @@
 /**
 * Define variables for the color used throughout the site.
 * This also overrides the original CSS to use these custom variables correctly.
-* TODO: clean it to use less variables and only stuff like
-* color-primary, color-with-bg, ....
-*/ 
+*/
 :root {
 	--bg-main: #FFFFFF;
 	--text: #121212;
@@ -26,8 +24,10 @@
 	--border-component: #dadada;
 	--img-background-color: transparent;
 
+	--target: goldenrod;
 }
 
+/** DE-activate dark mode
 [data-theme="dark"] {
 	--bg-main: #121212;
 	--text: #e0e0e0;
@@ -57,6 +57,7 @@
 		}
 	}
 }
+*/
 
 body {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -113,6 +114,12 @@ h6 {
 	color: var(--headings);
 	margin-top: 1em;
 	margin-bottom: 1em;
+
+	&:target{
+		border: 2px solid var(--target);
+		border-radius: 2px;
+		padding: 5px;
+	}
 }
 
 hr {
@@ -198,12 +205,74 @@ table tr:nth-child(2n) {
 	}
 }
 
-.presentation-frame {
+.iframe-container {
+	position: relative;
 	height: calc(min(60vh, 600px));
-	// box-shadow: var(--box-shadow-color) var(--box-shadow);
-	border: 2px solid var(--border-component);
-  border-radius: 20px;
+	
+	.presentation-frame {
+		position: relative;
+		height: 100%;
+		border: 2px solid var(--border-component);
+		border-radius: 20px;
+	}
+	
+	.full-screen-switch {
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		background-color: inherit;
+		cursor: pointer;
+		z-index: 1;
+		width: 2em;
+		height: 2em;
+		border-radius: 5px;
+		background-color: var(--bg-gray);
+		color: var(--text);
+
+		i {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.collapser {
+			display: none;
+		}
+
+		&:focus,
+		&:hover {
+			color: var(--bg-gray);
+			background-color: var(--text);
+			transition: all 0.3s ease-in-out;
+		}
+	}
+
+	&[data-full-screen="active"] {
+		position: fixed;
+		top:0;
+		left: 0;
+		height: 100vh;
+		width: 100vw;
+		z-index: 2000;
+		
+		.presentation-frame {
+			border: unset;
+			border-radius: unset;
+		}
+
+		.full-screen-switch {
+			z-index: 2001;
+			.expander {
+				display: none;
+			}
+			.collapser {
+				display: block;
+			}
+		}
+	}
 }
+
+
 
 .section-heading {
 	text-align: center;
@@ -275,22 +344,29 @@ footer {
 
 }
 
-img {
-	background-color: var(--img-background-color);
-}
-
-img.logo {
+.logo {
+	--logo-background-color: var(--img-background-color);
+	background-color: var(--logo-background-color);
 	display: block;
 	margin: unset;
 	width: var(--width);
 	height: var(--height);
 	padding: 0.5em;
+	border-radius: 5px;
 }
 
 .logo-inline {
 	display: inline;
 	height: 2em;
 	padding: 0.1em;
+}
+
+.logo-couperin {
+	--logo-background-color: #114d3f;
+}
+
+.logo-scipost {
+	--logo-background-color: #002b49;
 }
 
 #home-logo-partners {
@@ -300,4 +376,5 @@ img.logo {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	column-gap: 5em;
+	row-gap: 1.5em;
 }

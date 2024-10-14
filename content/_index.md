@@ -10,11 +10,11 @@ subtitle: Home page
 
 ## Introducing by example
 
-{{< presentation name="01-by-example" >}}
+{{< presentation name="01-by-example" startOffset="1">}}
 
 ## TSOSI in different aspects
 
-{{< presentation name="2024-09-23-pres-test" >}}
+{{< presentation name="02-general-pitch" startOffset="1" >}}
 
 ## What's TSOSI originality ?
 
