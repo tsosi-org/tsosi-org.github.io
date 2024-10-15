@@ -4,7 +4,9 @@ subtitle: Home page
 ---
 
 
-<div class="bigQuote"> It should be has easy to pay for private content, as it is to fund Open Science infrastructure </div>
+<div class="big-quote">
+It should be as easy to pay for private content as it is to fund Open Science infrastructure
+</div>
 
 _Transparency to Sustain Open Science Infrastructure is new projet started in March 2024 and lead by Université Grenoble Alpes. It aims to support the sustainability of Open Science Infrastructure._
 
@@ -14,7 +16,7 @@ _Transparency to Sustain Open Science Infrastructure is new projet started in Ma
 
 ## TSOSI in different aspects
 
-{{< presentation name="02-general-pitch" startOffset="1" >}}
+{{< presentation name="02-general-pitch" startOffset="1/3" >}}
 
 ## What's TSOSI originality ?
 

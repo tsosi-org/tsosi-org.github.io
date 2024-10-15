@@ -3,13 +3,15 @@
 * This also overrides the original CSS to use these custom variables correctly.
 */
 :root {
+	--font-awesome-family: "Font Awesome 5 Free";
+	--font-awesome-weight: 900;
 	--bg-main: #FFFFFF;
 	--text: #121212;
 
 	--bg-nav: lightgray;
 	--text-nav: #121212;
 
-	--primary: #00303f;
+	--primary: #3A6D8C;
 	--secondary: #001F3F;
 	--accent: #077b92;
 	--accent-action: #016a80;
@@ -17,7 +19,7 @@
 	--text-gray: #777;
 	--bg-gray: #ddd;
 
-	--headings: #3A6D8C;
+	--headings: var(--primary);
 	--link: #6A9AB0;
 	--link-hover: #466675;
 
@@ -25,6 +27,8 @@
 	--img-background-color: transparent;
 
 	--target: goldenrod;
+
+	--quote-text: var(--text);
 }
 
 /** DE-activate dark mode
@@ -112,7 +116,7 @@ h4,
 h5,
 h6 {
 	color: var(--headings);
-	margin-top: 1em;
+	margin-top: 2em;
 	margin-bottom: 1em;
 
 	&:target{
@@ -373,8 +377,33 @@ footer {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
-	column-gap: 5em;
+	column-gap: 4em;
 	row-gap: 1.5em;
+}
+
+.big-quote {
+	padding: 0.8em 1em 0.8em 1.5em;
+	margin: 0.5em 0;
+	font-size: 1.6em;
+	position: relative;
+	color: var(--quote-text);
+	// background-color: var(--bg-gray);
+	// box-shadow: 0 0 5px 1px lightgray;
+	border-radius: 5px;
+	// font-style: italic;
+
+	&::before {
+		font-style: initial;
+		text-rendering: auto;
+		font-family: var(--font-awesome-family);
+		font-weight: var(--font-awesome-weight);
+		content: "\f10d";
+		position: absolute;
+		top: 0.8em;
+		display: inline-block;
+		left: 0.1em;
+		color: var(--primary);
+	}
 }
