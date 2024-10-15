@@ -1,5 +1,4 @@
 ---
-title: TSOSI
 subtitle: Home page
 ---
 

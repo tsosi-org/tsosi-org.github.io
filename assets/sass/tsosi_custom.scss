@@ -74,7 +74,6 @@ body {
 	border-color: var(--bg-nav);
 	color: var(--text-nav);
 
-	.navbar-brand,
 	.nav li a {
 		font-weight: 800;
 		color: var(--text-nav);
@@ -385,14 +384,11 @@ footer {
 
 .big-quote {
 	padding: 0.8em 1em 0.8em 1.5em;
-	margin: 0.5em 0;
+	// margin: 0.5em 0;
 	font-size: 1.6em;
 	position: relative;
 	color: var(--quote-text);
-	// background-color: var(--bg-gray);
-	// box-shadow: 0 0 5px 1px lightgray;
 	border-radius: 5px;
-	// font-style: italic;
 
 	&::before {
 		font-style: initial;
@@ -405,5 +401,68 @@ footer {
 		display: inline-block;
 		left: 0.1em;
 		color: var(--primary);
+	}
+}
+
+.last-modified {
+	margin-top: 2em;
+	font-size: 0.9em;
+	text-align: right;
+	color: var(--text-gray)
+}
+
+.navbar-custom .navbar-brand {
+	color: var(--primary);
+
+	&:hover {
+		color: var(--link-hover);
+
+		.navbar-brand-subtitle {
+			text-decoration: underline;
+		}
+	}
+} 
+
+.navbar-brand {
+	display: block;
+	font-size: 2em;
+	max-width: calc(min(80vw, 600px));
+	padding: 15px;
+	height: auto;
+	transition: padding 0.5s ease-in-out;
+}
+
+.navbar-brand-subtitle {
+	display: none;
+	margin-top: 8px;
+	font-weight: normal;
+	font-size: 0.4em;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+	max-height: 0;
+}
+
+.top-nav-short {
+	.navbar-brand {
+		padding: 15px;
+	}
+	.navbar-brand-subtitle {
+		opacity: 0;
+		max-height: 0;
+		pointer-events: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-brand{
+		padding: 0px 15px;
+	}
+}
+
+@media (min-width: 550px) {
+	.navbar-brand-subtitle {
+		display: block;
+		opacity: 1;
+		max-height: 100px;
 	}
 }

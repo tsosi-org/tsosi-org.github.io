@@ -1,6 +1,7 @@
 baseURL = "https://tsosi.org"
 DefaultContentLanguage = "en"
 title = "TSOSI"
+subtitle = "Transparency to Sustain Open Science Infrastructure"
 # Using theme as git submodule 
 theme = "beautifulhugo"
 
@@ -66,9 +67,14 @@ theme = "beautifulhugo"
   url = "/"
   weight = 1
 
+# [[menu.main]]
+#   name = "Blog"
+#   url = "/blog/"
+#   weight = 2
+
 [[menu.main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "FAQ"
+  url = "page/faq"
   weight = 2
 
 [[menu.main]]

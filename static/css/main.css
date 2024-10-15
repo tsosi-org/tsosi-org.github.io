@@ -512,6 +512,11 @@ footer div.disclaimer {
   margin: 80px 0 20px;
   position: relative;
 }
+
+.intro-header.no-content {
+  margin: 70px 0 0 0;
+}
+
 .intro-header.big-img {
   background: no-repeat center center;
   -webkit-background-size: cover;
@@ -594,6 +599,9 @@ footer div.disclaimer {
 @media only screen and (min-width: 768px) {
   .intro-header {
     margin-top: 130px;
+  }
+  .intro-header.no-content {
+    margin-top: 90px;
   }
   .intro-header.big-img {
     margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
