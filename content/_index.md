@@ -4,9 +4,9 @@ subtitle: Home page
 ---
 
 
-> It should be has easy to pay for private content, as it is to fund Open Science infrastructure
+<div class="bigQuote"> It should be has easy to pay for private content, as it is to fund Open Science infrastructure </div>
 
-> Transparency to Sustain Open Science Infrastructure is new projet started in March 2024 and lead by Université Grenoble Alpes. It aims to support the sustainability of Open Science Infrastructure.
+_Transparency to Sustain Open Science Infrastructure is new projet started in March 2024 and lead by Université Grenoble Alpes. It aims to support the sustainability of Open Science Infrastructure._
 
 ## Introducing by example
 
