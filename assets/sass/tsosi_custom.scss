@@ -29,6 +29,7 @@
 	--target: goldenrod;
 
 	--quote-text: var(--text);
+	--top-banner-height: 30px
 }
 
 /** DE-activate dark mode
@@ -465,4 +466,23 @@ footer {
 		opacity: 1;
 		max-height: 100px;
 	}
+}
+
+#top-banner {
+	display: block;
+	text-align: center;
+	height: var(--top-banner-height);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1030; /* Same as bootstrap navbar */
+	background-color: goldenrod;
+
+	i {
+		margin-right: 0.25em;
+	}
+}
+
+.navbar-fixed-top {
+	top: var(--top-banner-height);
 }

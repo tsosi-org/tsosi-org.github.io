@@ -6,6 +6,8 @@ Or you can delete these file if you don't need it.
 {{ with resources.Get "sass/tsosi_custom.scss" | toCSS $opts | minify }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" crossorigin="anonymous">
 {{ end }}
+<!-- Disable robots indexing -->
+<meta name="robots" content="noindex, nofollow">
 <style>
   html {
     visibility: hidden;

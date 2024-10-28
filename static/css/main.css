@@ -509,21 +509,25 @@ footer div.disclaimer {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 80px 0 20px;
+  --default-margin-top: 80px;
+  --margin-top: calc(var(--top-banner-height, 0px) + var(--default-margin-top)); 
+  margin: var(--margin-top) 0 20px;
   position: relative;
 }
 
 .intro-header.no-content {
-  margin: 70px 0 0 0;
+  --default-margin-top: 70px;
+  margin: var(--margin-top) 0 0 0;
 }
 
 .intro-header.big-img {
+  --default-margin-top: 51px; /* The small navbar is 50px tall + 1px border */
   background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-top: 51px; /* The small navbar is 50px tall + 1px border */
+  margin-top: var(--margin-top); 
   margin-bottom: 35px;
 }
 .intro-header.big-img  .big-img-transition {
@@ -598,13 +602,13 @@ footer div.disclaimer {
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-top: 130px;
+    --default-margin-top: 130px;
   }
   .intro-header.no-content {
-    margin-top: 90px;
+    --default-margin-top: 90px;
   }
   .intro-header.big-img {
-    margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
+    --default-margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
