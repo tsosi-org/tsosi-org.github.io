@@ -1,6 +1,8 @@
 ---
 title: About us
 lastmod: 2024-10-11
+aliases:
+- "/contact"
 ---
 
 Transparency to Sustain Open Science Infrastructure is a project funded by the French Committee for open science, that is the political body dedicated to open science within the French ministry of research & education. The project is leaded by Université Grenoble Alpes and the following infrastructure are partners: OPERAS, DOAJ, DOAB, Couperin, SciPost, PeerCommuntyIn, SCOSS, Couperin.
