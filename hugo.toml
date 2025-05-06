@@ -16,8 +16,8 @@ theme = "beautifulhugo"
 
 [Params]
   selfHosted = true
+  homeTitle = "TSOSI Blog"
   subtitle = "Transparency to Sustain Open Science Infrastructure"
-  homeTitle = "TSOSI"
   mainSections = ["post"]
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -63,7 +63,7 @@ theme = "beautifulhugo"
 #   weight = 2
 
 [[menu.main]]
-  name = "Home"
+  name = "Blog"
   url = "/"
   weight = 1
 
@@ -72,32 +72,31 @@ theme = "beautifulhugo"
 #   url = "/blog/"
 #   weight = 2
 
-[[menu.main]]
-  name = "FAQ"
-  url = "page/faq"
-  weight = 2
+# [[menu.main]]
+#   name = "FAQ"
+#   url = "page/faq"
+#   weight = 2
+
+# [[menu.main]]
+#   name = "About"
+#   url = "page/about"
+#   weight = 3
 
 [[menu.main]]
-  name = "About"
-  url = "page/about"
+  name = "Tags"
+  url = "tags"
   weight = 3
 
 # [[menu.main]]
-#   name = "Tags"
-#   url = "tags"
-#   weight = 3
+#   name = "App"
+#   url = "https://tsosi.org"
+#   weight = 4
 
-# Activate if you want a presentation tab in the nav bar.
-# [[menu.main]]
-#   name = "Presentations"
-#   url= "presentation"
-#   weight = 2
-
-[permalinks]
-  [permalinks.page]
-    post = "/blog/:filename"
-  [permalinks.section]
-    post = "/blog/"
+# [permalinks]
+#   [permalinks.page]
+#     post = "/blog/:filename"
+#   [permalinks.section]
+#     post = "/blog/"
 
 [caches]
   [caches.images]

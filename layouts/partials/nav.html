@@ -9,12 +9,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand" href="{{ "" | absLangURL }}">
-              {{ .Site.Title }}
-              {{ with .Site.Params.subtitle}}
-              <div class="navbar-brand-subtitle">{{ . }}</div>
-              {{ end }}
-            </a>
+          <a class="navbar-brand" title="{{ .Site.Title }}" href="{{ "" | absLangURL }}">
+            {{ $image := resources.Get "img/logo_white.svg" }}
+            <img class="" src="{{ $image.Permalink }}" alt="{{ .Site.Title }}" />
+          </a>
         </div>
 
         <div class="collapse navbar-collapse" id="main-navbar">
@@ -43,6 +41,12 @@
               </button>
             </li>
             -->
+            <li>
+              <a href="https://tsosi.org">
+                <i class="fas fa-chart-bar"></i>
+                App
+              </a>
+            </li>
           </ul>
         </div>
 

@@ -2,7 +2,7 @@
 title: TSOSI Project presentation
 subtitle: How and why ?
 date: 2024-09-23
-# tags: ["politics", "kick-off"]
+tags: ["kick-off"]
 author: M. Larrieu
 ---
 
