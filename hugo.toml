@@ -1,4 +1,4 @@
-baseURL = "https://tsosi.org"
+baseURL = "https://tsosi-org.github.io"
 DefaultContentLanguage = "en"
 title = "TSOSI"
 subtitle = "Transparency to Sustain Open Science Infrastructure"
@@ -98,3 +98,7 @@ theme = "beautifulhugo"
     post = "/blog/:filename"
   [permalinks.section]
     post = "/blog/"
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
