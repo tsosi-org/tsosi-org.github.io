@@ -16,8 +16,8 @@ theme = "beautifulhugo"
 
 [Params]
   selfHosted = true
-  homeTitle = "TSOSI Blog"
-  subtitle = "Transparency to Sustain Open Science Infrastructure"
+  # homeTitle = "TSOSI Blog"
+  # subtitle = "Transparency to Sustain Open Science Infrastructure"
   mainSections = ["post"]
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -62,10 +62,10 @@ theme = "beautifulhugo"
 #   url = "page/contact"
 #   weight = 2
 
-[[menu.main]]
-  name = "Blog"
-  url = "/"
-  weight = 1
+# [[menu.main]]
+#   name = "Blog"
+#   url = "/"
+#   weight = 1
 
 # [[menu.main]]
 #   name = "Blog"
@@ -82,10 +82,10 @@ theme = "beautifulhugo"
 #   url = "page/about"
 #   weight = 3
 
-[[menu.main]]
-  name = "Tags"
-  url = "tags"
-  weight = 3
+# [[menu.main]]
+#   name = "Tags"
+#   url = "tags"
+#   weight = 3
 
 # [[menu.main]]
 #   name = "App"

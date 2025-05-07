@@ -509,14 +509,14 @@ footer div.disclaimer {
 /* --- Post and page headers --- */
 
 .intro-header {
-  --default-margin-top: 80px;
+  --default-margin-top: 100px;
   --margin-top: calc(var(--top-banner-height, 0px) + var(--default-margin-top)); 
   margin: var(--margin-top) 0 20px;
   position: relative;
 }
 
 .intro-header.no-content {
-  --default-margin-top: 70px;
+  --default-margin-top: calc(var(--nav-height) + 20px);
   margin: var(--margin-top) 0 0 0;
 }
 
@@ -602,10 +602,10 @@ footer div.disclaimer {
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    --default-margin-top: 130px;
+    --default-margin-top: 150px;
   }
   .intro-header.no-content {
-    --default-margin-top: 90px;
+    --default-margin-top: calc(var(--nav-height) + 60px);
   }
   .intro-header.big-img {
     --default-margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */

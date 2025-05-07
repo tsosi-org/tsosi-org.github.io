@@ -8,31 +8,30 @@
   <div class="container">
     <div class="row">
       <div class="footer__content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="footer__logos">
-          {{ $logos := slice
-            (dict "path" "img/logo_MESR.svg" "url" "https://www.enseignementsup-recherche.gouv.fr/fr" "width" "10em")
-            (dict "path" "img/logo_ouvrir_la_science.svg" "url" "https://www.ouvrirlascience.fr" "width" "13em")
-            (dict "path" "img/logo_uga.svg" "url" "https://www.univ-grenoble-alpes.fr/" "width" "7em")
-          }}
-          {{ range $logos }}
-            <a href="{{ .url }}" rel="noopener noreferrer" target="_blank">
-              {{ $logo := . }}
-              {{ with resources.Get .path }}
-                <img class="logo" src="{{ .Permalink }}" style="--width: {{ $logo.width }}">
-              {{ end }}
+        <div class="footer-data">
+          <div class="footer-logo">
+            {{ $image := resources.Get "img/logo_white.svg" }}
+            <img class="" src="{{ $image.Permalink }}" alt="{{ .Site.Title }}" />
+          </div>
+          <div class="copyright">
+            © CC-BY &nbsp;&bull;&nbsp; TSOSI
+          </div>
+          <div class="backers">
+            Led by
+            <a href="https://www.univ-grenoble-alpes.fr/english/">
+              Université Grenoble Alpes
             </a>
-          {{ end }}
-        </div>
-
-        <div class="text-center footer__text">
-          © Transparency to Sustain Open Science Infrastructure 2025
-          {{ $aboutPage := .Site.GetPage "/page/about" }}
-          {{ with resources.Get "img/logo_cc_heart.svg" }}
-          &nbsp;&bull;&nbsp;
-          <a href="{{ printf "%s#license" $aboutPage.Permalink }}">
-            License <img class="logo-inline" src="{{ .Permalink }}">
-          </a>
-          {{ end }}
+            <br />
+            Funded by
+            <a href="https://www.ouvrirlascience.fr/national-fund-for-open-science/">
+              The French National Fund for Open Science
+            </a>
+            <br />
+            Operated by
+            <a href="https://gricad.univ-grenoble-alpes.fr/index_en.html">
+              Grenoble Alps Research Scientific Computing and Data Infrastructure
+            </a>
+          </div>
         </div>
       </div>
     </div>
