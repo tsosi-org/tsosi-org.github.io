@@ -54,10 +54,11 @@ jobs:
           restore-keys:
             hugo-
       - name: Build with Hugo
+        # --baseURL "${{ steps.pages.outputs.base_url }}/" \
         run: |
           hugo \
             --gc \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --baseURL https://blog.tsosi.org \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache Save
         id: cache-save
