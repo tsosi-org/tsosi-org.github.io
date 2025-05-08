@@ -76,11 +76,6 @@ Guillaume Alzieu, Université Grenoble Alpes
 
 **Users case session**, 16:30 to 16:45
 
-<br />
-
-_Ways for the DOAJ to Use TSOSI_
-
-Joanna Ball <a href="https://orcid.org/0000-0002-4033-9119"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, DOAJ
 
 <br />
 
@@ -94,6 +89,12 @@ _Opening the investment in open infrastructure_
 
 Demmy Verbeke <a href="https://orcid.org/0000-0002-1020-3659"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, KU Leuven
 
+<br />
+
+_Ways for the DOAJ to Use TSOSI_
+
+Joanna Ball <a href="https://orcid.org/0000-0002-4033-9119"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, DOAJ
+
 
 <br />
 <br />
@@ -101,7 +102,9 @@ Demmy Verbeke <a href="https://orcid.org/0000-0002-1020-3659"><img src="https://
 **Planetary disccusion with Bianca Kramer**, 16h45-17h10
 
 _How can TSOSI be extended?_
+
 _Use case and benefit of TSOSI?_
+
 _How can research institution contribute?_
 
 
