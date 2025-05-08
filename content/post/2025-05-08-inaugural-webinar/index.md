@@ -12,13 +12,14 @@ author: Maxence Larrieu
 
 
 📅 the 16th of June at 4:00 PM CEST 📅
+
 📌 online, register here 📌
 
 <br />
 <br />
 
 
-Join us for a public webinar introducing Transparency to Sustain Open Science Infrastructure (TSOSI), a new initiative started in September 2024.
+Join us for a public webinar introducing Transparency to Sustain Open Science Infrastructure, a new initiative started in September 2024.
 
 TSOSI aims to strengthen the sustainability of open science infrastructure by spotlighting the organizations that fund them. For its launching year, TSOSI have worked with DOAJ, DOAB, SciPost, PeerCommunityIn, Couperin and OPERAS. TSOSI’s guiding principle: "The more we highlight those who have funded, the more funders we will attract."
 
@@ -33,7 +34,7 @@ Registration is open to eveyrone: [zoom.link](zoom.link)
 **Opening Session**, 16:00-16:15
 
 _Welcome_
-Bianca Kramer [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-5965-6560), Sesame Open Science
+Bianca Kramer <a href="https://orcid.org/0000-0002-5965-6560"><img class="logo-orcid" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID-ID"></a>, Sesame Open Science
 
 _Open science infrastructures: A call for transparency and funding_ 
 Marin Dacos [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9361-5295), French Ministry of Higher Education, Research and Innovation
