@@ -38,14 +38,17 @@ _Welcome_
 Bianca Kramer <a href="https://orcid.org/0000-0002-5965-6560"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, Sesame Open Science
 
 
+<br />
 
-_Open science infrastructures: A call for transparency and funding_ 
-Marin Dacos [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9361-5295), French Ministry of Higher Education, Research and Innovation
+_Open science infrastructures: A call for transparency and funding_ Marin Dacos <a href="https://orcid.org/0000-0002-9361-5295"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, French Ministry of Higher Education, Research and Innovation
 
 
 _The Role of internationalization in supporting open science during crisis_ 
+
 Caroline Bertoneche, Université Grenoble Alpes
 
+
+<br />
 <br />
 
 **TSOSI presentation**, 16:15-16:30
