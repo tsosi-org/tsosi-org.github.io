@@ -29,7 +29,7 @@ Registration is open to eveyrone: [zoom.link](zoom.link)
 
 <br />
 
-## Provisionnal agenda
+## Provisional agenda
 
 **Opening Session**, 16:00-16:15
 
@@ -42,7 +42,7 @@ Bianca Kramer <a href="https://orcid.org/0000-0002-5965-6560"><img src="https://
 
 <br />
 
-_Open science infrastructures: A call for transparency and funding_ 
+TBC _Open science infrastructures: A call for transparency and funding_ 
 
 Marin Dacos <a href="https://orcid.org/0000-0002-9361-5295"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, French Ministry of Higher Education, Research and Innovation
 
