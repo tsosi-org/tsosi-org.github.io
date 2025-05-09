@@ -3,11 +3,11 @@ title: Inaugural TSOSI Webinar
 #subtitle: How and why ?
 date: 2025-05-08
 #tags: ["kick-off"]
-#author: Maxence Larrieu
+author: Maxence Larrieu
 ---
 
 
-<div style="text-align: center; margin: 20px 0;">
+<div style="margin: 30px 0;">
     <p>📅 the 16th of June at 4:00 PM CEST 📅</p>
     <p>📌 online, register here 📌</p>
 </div>
