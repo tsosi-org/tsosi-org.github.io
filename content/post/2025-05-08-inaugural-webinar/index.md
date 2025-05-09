@@ -7,16 +7,10 @@ date: 2025-05-08
 ---
 
 
-<br />
-<br />
-
-
-📅 the 16th of June at 4:00 PM CEST 📅
-
-📌 online, register here 📌
-
-<br />
-<br />
+<div style="text-align: center; margin: 20px 0;">
+    <p>📅 the 16th of June at 4:00 PM CEST 📅</p>
+    <p>📌 online, register here 📌</p>
+</div>
 
 
 Join us for a public webinar introducing Transparency to Sustain Open Science Infrastructure, a new initiative started in September 2024.
@@ -85,7 +79,7 @@ Denis Bourget <a href="https://orcid.org/0000-0002-2109-5323"><img src="https://
 
 <br />
 
-_Opening the investment in open infrastructure_
+_Opening up open investments_
 
 Demmy Verbeke <a href="https://orcid.org/0000-0002-1020-3659"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, KU Leuven
 
@@ -99,7 +93,7 @@ Joanna Ball <a href="https://orcid.org/0000-0002-4033-9119"><img src="https://or
 <br />
 <br />
 
-**Planetary disccusion with Bianca Kramer**, 16h45-17h10
+**Plenary disccusion with Bianca Kramer**, 16h45-17h10
 
 _How can TSOSI be extended?_
 
