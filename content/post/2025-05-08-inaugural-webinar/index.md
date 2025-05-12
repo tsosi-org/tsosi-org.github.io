@@ -1,7 +1,7 @@
 ---
 title: Inaugural TSOSI Webinar
 #subtitle: How and why ?
-date: 2025-05-08
+date: 2025-05-12
 #tags: ["kick-off"]
 author: Maxence Larrieu
 ---
@@ -9,7 +9,7 @@ author: Maxence Larrieu
 
 <div style="margin: 30px 0;">
     <p>📅 the 16th of June at 4:00 PM CEST 📅</p>
-    <p>📌 online: register [univ-grenoble-alpes-fr.zoom.us](univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg) 📌</p>
+    <p>📌 online, register here: <a href="https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg">univ-grenoble-alpes-fr.zoom.us</a> 📌</p>
 </div>
 
 
@@ -42,7 +42,7 @@ Marin Dacos <a href="https://orcid.org/0000-0002-9361-5295"><img src="https://or
 
 <br />
 
-_The Role of internationalization in supporting open science during crisis_ 
+_The Role of internationalization in supporting open science_ 
 
 Caroline Bertoneche, Université Grenoble Alpes
 
