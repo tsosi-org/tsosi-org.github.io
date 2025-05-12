@@ -9,17 +9,17 @@ author: Maxence Larrieu
 
 <div style="margin: 30px 0;">
     <p>📅 the 16th of June at 4:00 PM CEST 📅</p>
-    <p>📌 online, register here 📌</p>
+    <p>📌 online: register [univ-grenoble-alpes-fr.zoom.us](univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg) 📌</p>
 </div>
 
 
-Join us for a public webinar introducing Transparency to Sustain Open Science Infrastructure, a new initiative started in September 2024.
+Join us for a public webinar introducing **Transparency to Sustain Open Science Infrastructure**, a new initiative started in September 2024.
 
 TSOSI aims to strengthen the sustainability of open science infrastructure by spotlighting the organizations that fund them. For its launching year, TSOSI have worked with DOAJ, DOAB, SciPost, PeerCommunityIn, Couperin and OPERAS. TSOSI’s guiding principle: "The more we highlight those who have funded, the more funders we will attract."
 
 In this wewinar, you'll be introduced to TSOSI, a new platform designed to promote transparency and broaden support for open science infrastructure.
 
-Registration is open to eveyrone: [zoom.link](zoom.link)
+Registration is open to eveyrone: [univ-grenoble-alpes-fr.zoom.us](https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg)
 
 <br />
 
@@ -97,9 +97,9 @@ Joanna Ball <a href="https://orcid.org/0000-0002-4033-9119"><img src="https://or
 
 _How can TSOSI be extended?_
 
-_Use case and benefit of TSOSI?_
+_What are the use cases and benefits of TSOSI?_
 
-_How can research institution contribute?_
+_How can research institutions contribute?_
 
 
 <br />
