@@ -7,7 +7,7 @@ author: Maxence Larrieu
 ---
 
 
-<div style="margin: 30px 0;font-size: 20px;">
+<div style="margin: 30px 0;">
     <p>📅 the 16th of June at 4:00 PM CEST 📅</p>
     <p>📌 online, register here: <a href="https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg">univ-grenoble-alpes-fr.zoom.us</a> 📌</p>
 </div>
@@ -19,11 +19,11 @@ TSOSI aims to strengthen the sustainability of open science infrastructure by sp
 
 In this wewinar, you'll be introduced to TSOSI, a new platform designed to promote transparency and broaden support for open science infrastructure.
 
-Registration is open to eveyrone: [univ-grenoble-alpes-fr.zoom.us](https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg)
+📌📌Registration is open to eveyrone: [univ-grenoble-alpes-fr.zoom.us](https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg)
 
 
 <div style="text-align: center;">
-    <img src="tsosi--banner.png" alt="TSOSI banner" style="max-width: 100%; height: auto;">
+    <img src="tsosi--banner.png" alt="TSOSI banner" style="max-width: 100%; height: auto; margin-top: 20px; margin-bottom: 20px">
 </div>
 
 
