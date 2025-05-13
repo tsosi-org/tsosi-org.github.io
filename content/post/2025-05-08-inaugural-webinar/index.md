@@ -11,6 +11,7 @@ author: Maxence Larrieu
 <br />
 
 📅 the 16th of June at 4:00 PM CEST
+
 📌 online, **register here: [univ-grenoble-alpes-fr.zoom.us/webinar/register](https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg)**
 
 
@@ -23,6 +24,7 @@ In this wewinar, you'll be introduced to TSOSI, a new platform designed to promo
 <br />
 
 📅 the 16th of June at 4:00 PM CEST
+
 📌 online, **register here: [univ-grenoble-alpes-fr.zoom.us/webinar/register](https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg)**
 
 
