@@ -8,22 +8,24 @@ author: Maxence Larrieu
 
 
 <div style="margin: 30px 0;">
-    <p>📅 the 16th of June at 4:00 PM CEST 📅</p>
-    <p>📌 online, register here: <a href="https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg">univ-grenoble-alpes-fr.zoom.us</a> 📌</p>
+    <p>📅📅 the 16th of June at 4:00 PM CEST</p>
+    <p>📌📌 online, <b>register here: <a href="https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg">univ-grenoble-alpes-fr.zoom.us</a></b> </p>
 </div>
 
 
-Join us for a public webinar introducing **Transparency to Sustain Open Science Infrastructure**, a new initiative started in September 2024.
+Join us for a public webinar introducing 'Transparency to Sustain Open Science Infrastructure' a new initiative started in September 2024.
 
 TSOSI aims to strengthen the sustainability of open science infrastructure by spotlighting the organizations that fund them. For its launching year, TSOSI have worked with DOAJ, DOAB, SciPost, PeerCommunityIn, Couperin and OPERAS. TSOSI’s guiding principle: "The more we highlight those who have funded, the more funders we will attract."
 
 In this wewinar, you'll be introduced to TSOSI, a new platform designed to promote transparency and broaden support for open science infrastructure.
 
+<br />
+
 📌📌Registration is open to eveyrone: [univ-grenoble-alpes-fr.zoom.us](https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg)
 
 
-<div style="text-align: center;">
-    <img src="tsosi--banner.png" alt="TSOSI banner" style="max-width: 100%; height: auto; margin-top: 20px; margin-bottom: 20px">
+<div style="text-align: left;">
+    <img src="tsosi--banner.png" alt="TSOSI banner" style="max-width: 100%; height: auto; margin-top: 40px; margin-bottom: 40px">
 </div>
 
 

@@ -8,9 +8,10 @@ author: Maxence Larrieu
 
 
 
-The 29 of April 2025 a webinar was made in destination to the 'SCOSS family', that is the infrastructures that has been selected by SCOSS (see [the SCOSS family on scoss.org](https://scoss.org/what-is-scoss/scossfamily/)). 
+On April 29, 2025 a webinar was held for the 'SCOSS family' — the infrastructures that have been selected by SCOSS (see [the SCOSS family on scoss.org](https://scoss.org/what-is-scoss/scossfamily/)). 
 
-The agenda was the following
+The agenda was as follows:
+
 
 Introduction, Vanessa Proudman
 TSOSI story, ideas and goals, Maxence Larrieu
@@ -19,9 +20,9 @@ TSOSI benetifs for SciPost, Jean-Sebastien Caux
 TSOSI benefits for DOAJ, Joanna Ball
 
 
-The discussion was insightfull and the keypoints will be added in this blogpost during May.
+The discussion was insightful, and the key points will be added to this blogpost during May.
 
-The slides of the previous interventions are hsared within zenodo, see [https://doi.org/10.5281/zenodo.15304265](https://doi.org/10.5281/zenodo.15304265)
+The slides from the previous presentations are available on Zenodo, see [https://doi.org/10.5281/zenodo.15304265](https://doi.org/10.5281/zenodo.15304265)
 
 
 
