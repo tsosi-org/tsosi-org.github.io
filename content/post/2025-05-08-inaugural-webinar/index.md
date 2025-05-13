@@ -25,7 +25,7 @@ In this wewinar, you'll be introduced to TSOSI, a new platform designed to promo
 
 
 <div style="text-align: left;">
-    <img src="tsosi--banner.png" alt="TSOSI banner" style="display: inline; max-width: 100%; height: auto; margin-top: 50px; margin-bottom: 20px">
+    <img src="tsosi--banner.png" alt="TSOSI banner" style="display: inline; max-width: 100%; height: auto; margin-top: 50px; margin-bottom: 0px">
 </div>
 
 
