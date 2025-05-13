@@ -15,7 +15,6 @@ The agenda was as follows:
 
 > Introduction, Vanessa Proudman
 TSOSI story, ideas and goals, Maxence Larrieu
-
 TSOSI platform, how does it work?, Guillaume Alzieu
 TSOSI benetifs for SciPost, Jean-Sebastien Caux
 TSOSI benefits for DOAJ, Joanna Ball
