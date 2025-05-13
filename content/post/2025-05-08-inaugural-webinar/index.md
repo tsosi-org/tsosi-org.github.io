@@ -14,6 +14,7 @@ author: Maxence Larrieu
 
 📌 online, **register here: [univ-grenoble-alpes-fr.zoom.us/webinar/register](https://univ-grenoble-alpes-fr.zoom.us/webinar/register/WN_HvVT-U61ScC5xX0nB4aRcg)**
 
+<br />
 
 Join us for a public webinar introducing 'Transparency to Sustain Open Science Infrastructure' a new initiative started in September 2024.
 
