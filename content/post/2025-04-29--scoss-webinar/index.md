@@ -13,7 +13,7 @@ On April 29, 2025 a webinar was held for the 'SCOSS family' — the infrastructu
 The agenda was as follows:
 
 
-> Introduction, Vanessa Proudman
+> Introduction, Vanessa Proudman<br />
 TSOSI story, ideas and goals, Maxence Larrieu <br />
 TSOSI platform, how does it work?, Guillaume Alzieu <br />
 TSOSI benetifs for SciPost, Jean-Sebastien Caux <br />
