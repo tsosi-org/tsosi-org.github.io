@@ -8,7 +8,14 @@ author: Maxence Larrieu
 
 
 
-On April 29, 2025 a webinar was held for the 'SCOSS family' — the infrastructures that have been selected by SCOSS, see [the SCOSS family on scoss.org](https://scoss.org/what-is-scoss/scossfamily/). 
+On April 29, 2025 a webinar was held for the 'SCOSS family', which includes the infrastructures that have been selected by the [SCOSS initiative](https://scoss.org/what-is-scoss/scossfamily/), as illustrated below on the date of the webinar:
+
+![](SCOSS-FAMILY-Feb-2025.png)
+
+
+<br />
+<br />
+
 
 The agenda was as follows:
 
