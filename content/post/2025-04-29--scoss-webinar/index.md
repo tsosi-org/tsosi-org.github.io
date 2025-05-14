@@ -10,11 +10,8 @@ author: Maxence Larrieu
 
 On April 29, 2025 a webinar was held for the 'SCOSS family', which includes the infrastructures that have been selected by the [SCOSS initiative](https://scoss.org/what-is-scoss/scossfamily/), as illustrated below on the date of the webinar:
 
-![](SCOSS-FAMILY-Feb-2025.png)
 
-
-<br />
-<br />
+<img src="SCOSS-FAMILY-Feb-2025.png" alt="SCOSS family as of Feb. 2025" style="width: 60%; margin-top: 30px; margin-bottom: 30px;">
 
 
 The agenda was as follows:
@@ -27,10 +24,7 @@ DOAJ’s experiences of TSOSI, Joanna Ball <br />
 Discussions <br />
 
 
-The slides are available on Zenodo: [https://doi.org/10.5281/zenodo.15304265](https://doi.org/10.5281/zenodo.15304265)
-
-
-The presentations describe the project's idea and its potential impact on the research community. Below are a few key points that were shared by the speakers and participants:
+The presentations describe the project's idea and its potential impact on the research community. The slides are shared on Zenodo: [https://doi.org/10.5281/zenodo.15304265](https://doi.org/10.5281/zenodo.15304265). Below are a few key points that were shared by the speakers and participants:
 
 - TSOSI allows us to visualize the pledging landscape and acknowledge the funders.
 
