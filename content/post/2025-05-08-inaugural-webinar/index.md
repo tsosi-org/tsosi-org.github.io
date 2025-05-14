@@ -18,9 +18,9 @@ author: Maxence Larrieu
 
 Join us for a public webinar introducing 'Transparency to Sustain Open Science Infrastructure' a new initiative started in September 2024.
 
-TSOSI aims to strengthen the sustainability of open science infrastructure by spotlighting the organizations that fund them. For its launching year, TSOSI have worked with DOAJ, DOAB, SciPost, PeerCommunityIn, Couperin and OPERAS. TSOSI’s guiding principle: "The more we highlight those who have funded, the more funders we will attract."
+TSOSI aims to strengthen the sustainability of open science infrastructure by spotlighting the organizations that fund them. For its launching year, TSOSI have worked with DOAJ, DOAB, SciPost, PeerCommunityIn, Couperin and OPERAS. TSOSI's guiding principle is: "The more we highlight those who have funded, the more funders we will attract."
 
-In this wewinar, you'll be introduced to TSOSI, a new platform designed to promote transparency and broaden support for open science infrastructure.
+In this webinar, you'll be introduced to TSOSI, a new platform designed to promote transparency and broaden support for open science infrastructure.
 
 <br />
 
