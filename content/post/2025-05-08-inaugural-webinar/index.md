@@ -86,7 +86,7 @@ Guillaume Alzieu, Université Grenoble Alpes
 
 _TSOSI to increase transparency and trust in Peer Community In_
 
-Denis Bourget <a href="https://orcid.org/0000-0002-2109-5323"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, Thomas Guillemaud <a href="https://orcid.org/0000-0003-0451-1644"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, Peer Community In
+Denis Bourguet <a href="https://orcid.org/0000-0002-2109-5323"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, Thomas Guillemaud <a href="https://orcid.org/0000-0003-0451-1644"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, Peer Community In
 
 <br />
 
