@@ -107,7 +107,7 @@ Rosalie Lack <a href="https://orcid.org/0000-0001-5932-2459"><img src="https://o
 
 <br />
 
-_How TSOSI benefits DOAJ_
+_How TSOSI benefits DOAJ?_
 
 Joanna Ball <a href="https://orcid.org/0000-0002-4033-9119"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, DOAJ
 
