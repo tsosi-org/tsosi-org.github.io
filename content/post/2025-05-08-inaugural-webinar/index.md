@@ -42,7 +42,7 @@ In this webinar, you'll be introduced to TSOSI, a new platform designed to promo
 
 _Welcome_
 
-Bianca Kramer <a href="https://orcid.org/0000-0002-5965-6560"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, Sesame Open Science
+Bianca Kramer <a href="https://orcid.org/0000-0002-5965-6560"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, Sesame Open Science and Barcelona Declaration on Open Research Information
 
 
 <br />
@@ -76,10 +76,14 @@ _How does it work?_
 Guillaume Alzieu, Université Grenoble Alpes
 
 <br />
+
+_Questions_
+
+<br />
 <br />
 
 
-**Users case session**, 16:30 to 16:45
+**Users case session**, 16:30 to 16:50
 
 
 <br />
@@ -96,19 +100,31 @@ Demmy Verbeke <a href="https://orcid.org/0000-0002-1020-3659"><img src="https://
 
 <br />
 
-_Ways for the DOAJ to Use TSOSI_
+_How SCOSS and TSOSI can benefit each other?_
+
+Rosalie Lack <a href="https://orcid.org/0000-0001-5932-2459"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, SCOSS
+
+
+<br />
+
+_How TSOSI benefits DOAJ_
 
 Joanna Ball <a href="https://orcid.org/0000-0002-4033-9119"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, DOAJ
 
 
 <br />
+
+_Questions_
+
+<br />
 <br />
 
-**Plenary disccusion with Bianca Kramer**, 16h45-17h10
+**Plenary disccusion with Bianca Kramer**, 16h50-17h15
 
-_How can TSOSI be extended?_
 
 _What are the use cases and benefits of TSOSI?_
+
+_How can TSOSI be extended?_
 
 _How can research institutions contribute?_
 
@@ -116,5 +132,7 @@ _How can research institutions contribute?_
 <br />
 <br />
 
-**Closing**, 17h10-17h20
+**Closing**, 17h15-17h20
+
+Bianca Kramer
 
