@@ -100,7 +100,7 @@ Demmy Verbeke <a href="https://orcid.org/0000-0002-1020-3659"><img src="https://
 
 <br />
 
-_How SCOSS and TSOSI can benefit each other?_
+_Global point of view from SCOSS_
 
 Rosalie Lack <a href="https://orcid.org/0000-0001-5932-2459"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" class="orcid-icon"></a>, SCOSS
 
