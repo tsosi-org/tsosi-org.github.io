@@ -34,7 +34,7 @@ In this webinar, you'll be introduced to TSOSI, a new platform designed to promo
 </div>
  -->
 
-## Provisional agenda
+## Provisional program
 
 **Opening Session**, 16:00-16:15
 
