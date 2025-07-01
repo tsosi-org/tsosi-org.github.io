@@ -16,9 +16,10 @@ theme = "beautifulhugo"
 
 [Params]
   selfHosted = true
-  # homeTitle = "TSOSI Blog"
+  homeTitle = "TSOSI - blog"
   # subtitle = "Transparency to Sustain Open Science Infrastructure"
   mainSections = ["post"]
+  logo = "img/logo_open_graph.png"
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "2006-01-02"
@@ -51,46 +52,21 @@ theme = "beautifulhugo"
   website = "tsosi.org"
   email = "contact@tsosi.org"
 
-# [[menu.main]]
-#   identifier = "about"
-#   name = "About"
-#   weight = 4
+[[menu.main]]
+  identifier = "app"
+  url = "https://tsosi.org/"
+  name = "App"
+  weight = 1
 
-# [[menu.main]]
-#   parent = "about"
-#   name = "Contact"
-#   url = "page/contact"
-#   weight = 2
+[[menu.main]]
+  name = "FAQ"
+  url = "https://tsosi.org/pages/faq/"
+  weight = 2
 
-# [[menu.main]]
-#   name = "Blog"
-#   url = "/"
-#   weight = 1
-
-# [[menu.main]]
-#   name = "Blog"
-#   url = "/blog/"
-#   weight = 2
-
-# [[menu.main]]
-#   name = "FAQ"
-#   url = "page/faq"
-#   weight = 2
-
-# [[menu.main]]
-#   name = "About"
-#   url = "page/about"
-#   weight = 3
-
-# [[menu.main]]
-#   name = "Tags"
-#   url = "tags"
-#   weight = 3
-
-# [[menu.main]]
-#   name = "App"
-#   url = "https://tsosi.org"
-#   weight = 4
+[[menu.main]]
+  name = "About"
+  url = "https://tsosi.org/pages/about/"
+  weight = 3
 
 # [permalinks]
 #   [permalinks.page]

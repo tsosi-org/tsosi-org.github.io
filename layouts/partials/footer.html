@@ -7,31 +7,72 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="footer__content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="footer-data">
-          <div class="footer-logo">
-            {{ $image := resources.Get "img/logo_white.svg" }}
-            <img class="" src="{{ $image.Permalink }}" alt="{{ .Site.Title }}" />
+      <div class="footer__content">
+        <div class="footer-wrapper">
+          <div class="footer-data">
+            <div class="footer-logo">
+              {{ $image := resources.Get "img/logo_white.svg" }}
+              <img class="" src="{{ $image.Permalink }}" alt="{{ .Site.Title }}" />
+            </div>
+            <div class="copyright">
+              © 2025 TSOSI under a Creative Commons BY-SA license. 
+            </div>
+            <div>
+              <a href="https://tsosi.org/pages/legal-notice">Legal notice</a> &bull;
+              <a href="https://tsosi.org/pages/privacy-policy">Privacy policy</a>
+            </div>
+            <div class="backers">
+              Led by
+              <a href="https://www.univ-grenoble-alpes.fr/english/">
+                Université Grenoble Alpes
+              </a>
+              <br />
+              Funded by
+              <a href="https://www.ouvrirlascience.fr/national-fund-for-open-science/">
+                The French National Fund for Open Science
+              </a>
+              <br />
+              Operated by
+              <a href="https://gricad.univ-grenoble-alpes.fr/en/">
+                Grenoble Alpes Research Scientific Computing and Data Infrastructure
+              </a>
+            </div>
           </div>
-          <div class="copyright">
-            © CC-BY &nbsp;&bull;&nbsp; TSOSI
+
+          <div class="footer-links">
+            <h3>Community</h3>
+            <ul>
+              <li>
+                <a href="https://github.com/tsosi-org">
+                  Github
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://cloud.univ-grenoble-alpes.fr/apps/forms/embed/sanHSpzrJHqPbCknYcCBDcWy"
+                >
+                  Newsletter
+              </a>
+              </li>
+              <li>
+                <a to="/pages/faq#contact-us">
+                  Contact
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="backers">
-            Led by
-            <a href="https://www.univ-grenoble-alpes.fr/english/">
-              Université Grenoble Alpes
-            </a>
-            <br />
-            Funded by
-            <a href="https://www.ouvrirlascience.fr/national-fund-for-open-science/">
-              The French National Fund for Open Science
-            </a>
-            <br />
-            Operated by
-            <a href="https://gricad.univ-grenoble-alpes.fr/index_en.html">
-              Grenoble Alps Research Scientific Computing and Data Infrastructure
-            </a>
+
+          <div class="footer-links">
+            <h3>Navigation</h3>
+            <ul>
+              {{ range .Site.Menus.main.ByWeight }}
+                <li>
+                  <a title="{{ .Name }}" href="{{ .URL  | relLangURL }}">{{ .Name }}</a>
+                </li>
+              {{ end }}
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
