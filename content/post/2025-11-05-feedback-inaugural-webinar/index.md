@@ -1,12 +1,17 @@
 ---
-title: Feedback on the TSOSI Inaugural Workshop in June 2025
+title: Feedback on the TSOSI Inaugural Webinar
 #subtitle: How and why ?
 date: 2025-11-05
 author: Bianka Kramer
 ---
 
+Relive TSOSI's inaugural webinar held in June 2025. 
 
-TSOSI aims to strengthen the sustainability of open science infrastructure by spotlighting the organizations that fund them. For its launching year, TSOSI has worked with DOAJ, DOAB, SCOSS, SciPost, PeerCommunityIn, Couperin and OPERAS. TSOSI’s guiding principle is: “The more we highlight those who have funded, the more funders we will attract.”
+<!--more-->
+
+You can revisit the recording of the webinar on [YouTube.com](https://www.youtube.com/watch?v=EG9iqUak3kM), and the slides of the presenters are shared on Zenodo [Zenodo](https://doi.org/10.5281/zenodo.15674779).
+
+<img src="tsosi-illustration.png" alt="TSOSO goalds is to contribute to the financial sustainability of Open infrastructures" style="width: 70%; margin-top: 30px; margin-bottom: 30px;">
 
 The public launch webinar in June 2025 brought together a number of speakers involved with TSOSI as project funders, infrastructures and end users, and offered the opportunity to discuss use cases and future plans for TSOSI, and ways the community can contribute to its growth. 
 
@@ -15,7 +20,7 @@ The public launch webinar in June 2025 brought together a number of speakers inv
 
 The webinar was chaired by **Bianca Kramer**, Executive Director of the [Barcelona Declaration on Open Research Information](https://barcelona-declaration.org). She introduced TSOSI as a platform designed to promote transparency and broaden support for open infrastructures, and emphasized the great value in making financial contributions to open infrastructures visible. 
 
-The opening remarks for the webinar were then delivered by **Marin Dacos**, ([French Open Science Committee](https://www.ouvrirlascience.fr/the-committee-for-open-science/)) and **Caroline Bertonèche**, ([Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/)) \- both from organizations that support the development of TSOSI. 
+The opening remarks for the webinar were then delivered by **Marin Dacos** ([French Open Science Committee](https://www.ouvrirlascience.fr/the-committee-for-open-science/)) and **Caroline Bertonèche** ([Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/)) \- both from organizations that support the development of TSOSI. 
 
 Marin Dacos highlighted that many people use open science infrastructure without knowing that there is an issue of sustainability and cost to it. The [French National Open Science Fund](https://www.ouvrirlascience.fr/national-fund-for-open-science/) supported the development of TSOSI to encourage more institutions to financially contribute to open infrastructures and make them more visible. 
 
@@ -31,7 +36,10 @@ Guillaume then showed how at the time of launch, TSOSI was collecting, enriching
 
 The webinar then continued with four use cases, showing the perspectives on TSOSI of infrastructures and libraries as well as the connection of TSOSI to the wider landscape of organizing funding for open infrastructures. First, **Thomas Guillemaud** of [Peer Community In (PCI)](https://peercommunityin.org/) explained that TSOSI is helping them to tell the story of who is financially supporting PCI, which, in turn, increases transparency and trust in the platform. **Demmy Verbeke** from [KU Leuven](https://bib.kuleuven.be/) reflected on the reasons for KU Leuven to be open about their investments to open infrastructure (transparency, promotion of infrastructures, inspiration for other libraries and visibility) and noted that this is exactly what TSOSI is doing at a larger scale and more objectively. 
 
-**Rosalie Lack** from [SCOSS](https://scoss.org/), emphasized that connected open science infrastructure requires sustainable distributed support, with no single institution, single country and single region of the globe or a single institution carrying the load alone. It is this distributed support that SCOSS is organizing and TSOSI is making visible. Finally, **Joanna Ball** from [DOAJ](https://doaj.org/) explained the need for sustained funding for operations and maintenance of open infrastructures (not just funding new developments or new initiatives) and the importance of TSOSI in making that funding visible, promoting, highlighting and celebrating it. 
+**Rosalie Lack** from [SCOSS](https://scoss.org/), emphasized that connected open science infrastructure requires sustainable distributed support, with no single institution, single country and single region of the globe or a single institution carrying the load alone. It is this distributed support that SCOSS is organizing and TSOSI is making visible. Finally, **Joanna Ball** from [DOAJ](https://doaj.org/) explained the need for sustained funding for operations and maintenance (not just funding new developments), the practical benefits of TSOSI for DOAJ, and its importance in making that funding visible, promoting, highlighting and celebrating it. 
+
+<img src="TSOSI-benefits.png" alt="the practical benefits of TSOSI for one infrastructure" style="width: 70%; margin-top: 30px; margin-bottom: 30px;">
+
 
 ## Discussion and next steps
 

@@ -8,15 +8,15 @@ author: Maxence Larrieu
 
 
 
-On April 29th 2025 a webinar was held for the 'SCOSS family', which includes the infrastructures that have been selected by the [SCOSS initiative](https://scoss.org/what-is-scoss/scossfamily/), as illustrated below on the date of the webinar:
+On April 29th 2025 a webinar was held for the 'SCOSS family', which includes the infrastructures that have been selected by the [SCOSS initiative](https://scoss.org/what-is-scoss/scossfamily/) 
 
+<!--more-->. 
 
 <img src="SCOSS-FAMILY-Feb-2025.png" alt="SCOSS family as of Feb. 2025" style="width: 60%; margin-top: 30px; margin-bottom: 30px;">
 
-
 The agenda was as follows:
 
-> Introduction, Vanessa Proudman<br />
+Introduction, Vanessa Proudman<br />
 TSOSI story, ideas and goals, Maxence Larrieu <br />
 TSOSI platform, how does it work?, Guillaume Alzieu <br />
 TSOSI & SciPost approach, Jean-Sebastien Caux <br />
