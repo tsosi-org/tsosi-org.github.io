@@ -2,16 +2,16 @@
 title: Feedback on the TSOSI Inaugural Webinar
 #subtitle: How and why ?
 date: 2025-11-05
-author: Bianka Kramer
+author: Bianka Kramer, Maxence Larrieu
 ---
 
 Relive TSOSI's inaugural webinar held in June 2025. 
 
 <!--more-->
 
-You can revisit the recording of the webinar on [YouTube.com](https://www.youtube.com/watch?v=EG9iqUak3kM), and the slides of the presenters are shared on Zenodo [Zenodo](https://doi.org/10.5281/zenodo.15674779).
+You can revisit the recording of the webinar on [YouTube](https://www.youtube.com/watch?v=EG9iqUak3kM), and the slides of the presenters are shared on [Zenodo](https://doi.org/10.5281/zenodo.15674779).
 
-<img src="tsosi-illustration.png" alt="TSOSO goalds is to contribute to the financial sustainability of Open infrastructures" style="width: 70%; margin-top: 30px; margin-bottom: 30px;">
+<img src="tsosi-illustration.png" alt="TSOSO goalds is to contribute to the financial sustainability of Open infrastructures" style="width: 80%; margin-top: 30px; margin-bottom: 30px;">
 
 The public launch webinar in June 2025 brought together a number of speakers involved with TSOSI as project funders, infrastructures and end users, and offered the opportunity to discuss use cases and future plans for TSOSI, and ways the community can contribute to its growth. 
 
