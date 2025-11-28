@@ -16,6 +16,8 @@ On April 29th 2025 a webinar was held for the 'SCOSS family', which includes the
 
 The agenda was as follows:
 
+<br /><br />
+
 Introduction, Vanessa Proudman<br />
 TSOSI story, ideas and goals, Maxence Larrieu <br />
 TSOSI platform, how does it work?, Guillaume Alzieu <br />
@@ -23,6 +25,7 @@ TSOSI & SciPost approach, Jean-Sebastien Caux <br />
 DOAJ’s experiences of TSOSI, Joanna Ball <br />
 Discussions <br />
 
+<br /><br />
 
 The presentations describe the project's idea and its potential impact on the research community. The slides are shared on Zenodo: [https://doi.org/10.5281/zenodo.15304265](https://doi.org/10.5281/zenodo.15304265). Below there are a few key points that were shared by the speakers and participants:
 
