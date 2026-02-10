@@ -1,0 +1,15 @@
+{{- $posts := slice -}}
+{{- range where site.RegularPages "Type" "in" site.Params.mainSections -}}  {{- $post := dict 
+    "title" .Title
+    "date" .Date
+    "author" .Params.author
+    "permalink" (printf "%sindex.json" .RelPermalink)
+    "summary" .Summary
+    "readingTime" .ReadingTime
+  -}}
+  {{- $posts = $posts | append $post -}}
+{{- end -}}
+{{- $output := dict 
+  "posts" $posts
+-}}
+{{- $output | jsonify (dict "indent" "  ") -}}

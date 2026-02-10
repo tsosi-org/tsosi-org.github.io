@@ -6,8 +6,7 @@ author: Maxence Larrieu
 ---
 
 
-<br />
-<br />
+
 
 
 Join us for a public webinar introducing 'Transparency to Sustain Open Science Infrastructure' a new initiative started in September 2024 🎉🎉

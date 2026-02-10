@@ -4,6 +4,7 @@ title = "TSOSI"
 subtitle = "Transparency to Sustain Open Science Infrastructure"
 # Using theme as git submodule 
 theme = "beautifulhugo"
+relativeURLs = true
 
 [markup]
   [markup.highlight]
@@ -77,3 +78,8 @@ theme = "beautifulhugo"
 [caches]
   [caches.images]
     dir = ":cacheDir/images"
+
+[outputs]
+  home = ["HTML", "JSON"]
+  section = ["HTML", "JSON"]
+  page = ["HTML", "JSON"]

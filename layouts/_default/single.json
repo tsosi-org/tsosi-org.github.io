@@ -1,0 +1,36 @@
+{{- $navigation := dict -}}
+{{- if ne .Type "page" -}}
+  {{- $prevPost := dict -}}
+  {{- $nextPost := dict -}}
+  
+  {{- if .PrevInSection -}}
+    {{- $prevPost = dict 
+      "title" .PrevInSection.Title
+      "permalink" (printf "%sindex.json" .PrevInSection.RelPermalink)
+    -}}
+  {{- end -}}
+  
+  {{- if .NextInSection -}}
+    {{- $nextPost = dict 
+      "title" .NextInSection.Title
+      "permalink" (printf "%sindex.json" .NextInSection.RelPermalink)
+    -}}
+  {{- end -}}
+  
+  {{- $navigation = dict 
+    "has_prev" (ne .PrevInSection nil)
+    "has_next" (ne .NextInSection nil)
+    "prev" $prevPost
+    "next" $nextPost
+  -}}
+{{- end -}}
+{{- $output := dict 
+  "title" .Title
+  "date" .Date
+  "lastmod" .Lastmod
+  "content" .Content
+  "readingTime" .ReadingTime
+  "author" .Params.author
+  "navigation" $navigation
+-}}
+{{- $output | jsonify (dict "indent" "  ") -}}
