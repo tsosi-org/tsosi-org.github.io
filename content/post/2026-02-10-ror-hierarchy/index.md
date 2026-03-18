@@ -24,31 +24,29 @@ ROR and Wikidata identifiers allow us to highlight organizations with specific m
 If a support is done by an organization that is the "child" from another one, then we _also_ display it on the "parent" organization, with a dedicated icon to inform the user. 
 
 A good example is the [University of Oxford](https://tsosi.org/entities/052gg0110), as shown below, that also contains support from the [Oxford University Press](https://tsosi.org/entities/0336mm561).
-</br>
-</br>
+
+<div style="display:flex; justify-content: center;">
+    <a target="_blank"  href="https://tsosi.org/entities/052gg0110" style="display: block; width: 100%; margin-top: 30px;">
+        <img src="oxford.png" alt="Oxford list of financial supports" style="box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;">
+    </a>
+</div>
 <div style="text-align: center;">
 
 *List of financial supports made by Oxford University Press to Open Science infrastructures*
 </div>
 
-<div style="display:flex; justify-content: center;">
-    <a target="_blank"  href="https://tsosi.org/entities/052gg0110" style="display: block; width: 100%; margin-bottom: 30px;">
-        <img src="oxford.png" alt="Oxford list of financial supports">
-    </a>
-</div>
-
 ### What has changed?
 
-So far, ROR lists over 17,000 parent-child relationship instances across its registry of more than 116,000 organizations (see [their blog post](https://ror.org/blog/2023-02-27-parents-children-and-other-relationships-in-ror/)). We have added the ones that are part of TSOSI: 59 relationships between 67 institutions have been integrated, which is shown in the graph below (you can click to zoom)
+So far, ROR lists over 17,000 parent-child relationship instances across its registry of more than 116,000 organizations (see [their blog post](https://ror.org/blog/2023-02-27-parents-children-and-other-relationships-in-ror/)). We have added the ones that are part of TSOSI: 59 relationships between 67 institutions have been integrated, which is shown in the graph below.
 
 <div style="display:flex; justify-content: center;">
     <a target="_blank" href="hierarchy.png" style="display: block; width: 80%; margin-top: 30px;">
-        <img src="hierarchy.png" alt="Data coverage" title="Click to zoom" style="border: 1px solid black;">
+        <img src="hierarchy.png" alt="Data coverage" title="click to zoom" style="box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;">
     </a>
 </div>
 <div style="text-align: center; margin-bottom: 50px;">  
 
-*Graph of relationships between institutions in TSOSI (Click to zoom)*
+*Graph of relationships between institutions in TSOSI (click to zoom)*
 </div>
 
 ### What's next ?
